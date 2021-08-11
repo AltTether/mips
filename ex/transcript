@@ -150,3 +150,203 @@ restart -f
 # Loading work.ex_sim
 # Loading work.EX
 run 1us
+# Compile of ex.v failed with 33 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 33 errors.
+# Compile of ex.v failed with 9 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of ex.v failed with 11 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 11 errors.
+# Compile of ex.v failed with 11 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 11 errors.
+# Compile of ex.v failed with 9 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of ex.v failed with 9 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of ex.v failed with 11 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 11 errors.
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+add wave sim:/ex_sim/*
+run 1us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v failed with 7 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 7 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v failed with 6 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+add wave sim:/ex_sim/ex1/#ASSIGN#62/*
+run 1us
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+add wave sim:/ex_sim/ex1/*
+run 1us
+run 1us
+add wave sim:/ex_sim/*
+run 1us
+add wave sim:/ex_sim/ex1/#ALWAYS#62/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 04:44:55 on Aug 12,2021, Elapsed time: 4:05:20
+# Errors: 0, Warnings: 6
+# vsim work.ex_sim 
+# Start time: 04:44:55 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave sim:/ex_sim/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us

@@ -38,31 +38,31 @@ initial
 
      // ADDU
      ins=#(PERIOD) {6'h00, 20'd0, 6'h21};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd1; rdata2=32'd2; ed32=32'd0;
 
      // SUB
      ins=#(PERIOD) {6'h00, 20'd0, 6'h22};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd5; rdata2=32'd3; ed32=32'd0;
 
      // SUBU
      ins=#(PERIOD) {6'h00, 20'd0, 6'h23};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd20; rdata2=32'd11; ed32=32'd0;
 
      // AND
      ins=#(PERIOD) {6'h00, 20'd0, 6'h24};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd20; rdata2=32'd30; ed32=32'd0;
 
      // OR
      ins=#(PERIOD) {6'h00, 20'd0, 6'h25};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd42; rdata2=32'd12; ed32=32'd0;
 
      // XOR
      ins=#(PERIOD) {6'h00, 20'd0, 6'h26};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd23; rdata2=32'd32; ed32=32'd0;
 
      // NOR
      ins=#(PERIOD) {6'h00, 20'd0, 6'h27};
-     rdata1=32'd1; rdata2=32'd1; ed32=32'd0;
+     rdata1=32'd43; rdata2=32'd32; ed32=32'd0;
 
      // SLT
      ins=#(PERIOD) {6'h00, 20'd0, 6'h2A};
@@ -80,13 +80,13 @@ initial
 
      // ADDIU
      ins=#(PERIOD) {6'h09, 20'd0, 6'h00};
-     rdata1=32'd1; ed32=32'd1;
+     rdata1=32'd1; ed32=32'd3;
 
      // SLTI
      ins=#(PERIOD) {6'h0A, 20'd0, 6'h00};
      rdata1=32'd1; ed32=32'd1;
      ins=#(PERIOD) {6'h0A, 20'd0, 6'h00};
-     rdata1=32'd1; ed32=32'd4;
+     rdata1=32'd1; ed32=32'd100;
 
      // SLTIU
      ins=#(PERIOD) {6'h0B, 20'd0, 6'h00};
