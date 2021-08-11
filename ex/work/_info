@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/noda/intelFPGA/20.1/modelsim_ase/bin
+vEX
+Z0 !s110 1628691544
+!i10b 1
+!s100 =KiR2XU<ec3>EM`9_[]:a3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Inf@bGGNodDS9hobaznAWg3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/noda/workspace/modelsim/ex
+w1628691539
+8/home/noda/workspace/modelsim/ex/ex.v
+F/home/noda/workspace/modelsim/ex/ex.v
+Fcommon_param.vh
+!i122 1
+L0 1 139
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1628691544.000000
+!s107 common_param.vh|/home/noda/workspace/modelsim/ex/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/ex/ex.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@e@x
+vex_sim
+R0
+!i10b 1
+!s100 NiH9eHij]HjQ9X[Sl3EIo1
+R1
+IT36XTcUZU]LS9=C5d1J^V1
+R2
+R3
+w1628691476
+8/home/noda/workspace/modelsim/ex/ex_sim.v
+F/home/noda/workspace/modelsim/ex/ex_sim.v
+!i122 2
+L0 4 151
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/noda/workspace/modelsim/ex/ex_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/ex/ex_sim.v|
+!i113 1
+R6
+R7

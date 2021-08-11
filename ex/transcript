@@ -1,0 +1,41 @@
+# Loading project ex
+# Compile of ex.v failed with 32 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 32 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# vsim work.ex_sim 
+# Start time: 23:19:12 on Aug 11,2021
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+vsim work.ex_sim
+# End time: 23:21:06 on Aug 11,2021, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 1
+# vsim work.ex_sim 
+# Start time: 23:21:06 on Aug 11,2021
+# Loading work.ex_sim
+# Loading work.EX
+restart -f
+run 1us
+add wave sim:/ex_sim/*
+run 1us
+run 1us
+run 100us
+add wave sim:/ex_sim/ex1/#ASSIGN#16/*
+add wave sim:/ex_sim/ex1/*
+run 1us
+vsim work.ex_sim
+# End time: 23:25:15 on Aug 11,2021, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 1
+# vsim work.ex_sim 
+# Start time: 23:25:15 on Aug 11,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave sim:/ex_sim/ex1/*
+run 1us
