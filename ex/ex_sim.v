@@ -159,5 +159,21 @@ initial
      // DIVU
      ins=#(PERIOD) {6'h00, 20'd0, 6'h1B};
      rdata1=32'd1; rdata2=32'd1;
+
+     // JR
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h08};
+     rdata1=32'd34; rdata2=32'd4;
+
+     // JALR
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h09};
+     rdata1=32'd248;
+
+     // J
+     ins=#(PERIOD) {6'd2, 26'd64};
+     nextpc={4'd2, 26'd1213};
+
+     // JAL
+     ins=#(PERIOD) {6'd3, 26'd128};
+     nextpc={4'd6, 26'd0};
 end
 endmodule
