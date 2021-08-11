@@ -10,26 +10,26 @@ z2
 cModel Technology
 d/home/noda/intelFPGA/20.1/modelsim_ase/bin
 vEX
-Z0 !s110 1628691544
+Z0 !s110 1628697591
 !i10b 1
-!s100 =KiR2XU<ec3>EM`9_[]:a3
+!s100 eRj4Y;H:hn[kEJ^ezCKiz3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Inf@bGGNodDS9hobaznAWg3
+IgF8l4O7bN]@cFmS2R8=Jm1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 d/home/noda/workspace/modelsim/ex
-w1628691539
-8/home/noda/workspace/modelsim/ex/ex.v
-F/home/noda/workspace/modelsim/ex/ex.v
+Z3 d/home/noda/workspace/modelsim/mips/ex
+w1628696355
+8/home/noda/workspace/modelsim/mips/ex/ex.v
+F/home/noda/workspace/modelsim/mips/ex/ex.v
 Fcommon_param.vh
-!i122 1
-L0 1 139
+!i122 24
+L0 1 142
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1628691544.000000
-!s107 common_param.vh|/home/noda/workspace/modelsim/ex/ex.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/ex/ex.v|
+Z5 !s108 1628697591.000000
+!s107 common_param.vh|/home/noda/workspace/modelsim/mips/ex/ex.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/ex/ex.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
@@ -37,23 +37,23 @@ n@e@x
 vex_sim
 R0
 !i10b 1
-!s100 NiH9eHij]HjQ9X[Sl3EIo1
+!s100 JbiCWZkWnO1M^<c[4FH=:1
 R1
-IT36XTcUZU]LS9=C5d1J^V1
+I5[O<MhMm[T`DP9I;9`i7Y1
 R2
 R3
-w1628691476
-8/home/noda/workspace/modelsim/ex/ex_sim.v
-F/home/noda/workspace/modelsim/ex/ex_sim.v
-!i122 2
-L0 4 151
+w1628697586
+8/home/noda/workspace/modelsim/mips/ex/ex_sim.v
+F/home/noda/workspace/modelsim/mips/ex/ex_sim.v
+!i122 25
+L0 4 160
 R4
 r1
 !s85 0
 31
 R5
-!s107 /home/noda/workspace/modelsim/ex/ex_sim.v|
-!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/ex/ex_sim.v|
+!s107 /home/noda/workspace/modelsim/mips/ex/ex_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/ex/ex_sim.v|
 !i113 1
 R6
 R7

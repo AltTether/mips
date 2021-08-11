@@ -39,3 +39,114 @@ vsim work.ex_sim
 # Loading work.EX
 add wave sim:/ex_sim/ex1/*
 run 1us
+# 0 compiles, 2 failed with no errors.
+# Project file /home/noda/workspace/modelsim/ex/ex.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file /home/noda/workspace/modelsim/ex/ex.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 23:58:27 on Aug 11,2021, Elapsed time: 0:33:12
+# Errors: 0, Warnings: 0
+# Closing project /home/noda/workspace/modelsim/ex/ex.mpf
+# Warning: Cannot write compile report file: /home/noda/workspace/modelsim/ex/ex.cr.mti
+# reading /home/noda/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project ex
+# 0 compiles, 2 failed with no errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+vsim work.ex_sim
+# vsim work.ex_sim 
+# Start time: 00:09:58 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave sim:/ex_sim/#INITIAL#32/*
+run 1us
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/jadr'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/alu'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/op'. 
+vsim work.ex_sim
+# End time: 00:39:35 on Aug 12,2021, Elapsed time: 0:29:37
+# Errors: 0, Warnings: 1
+# vsim work.ex_sim 
+# Start time: 00:39:35 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave sim:/ex_sim/#INITIAL#31/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+add wave sim:/ex_sim/*
+add wave sim:/ex_sim/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
