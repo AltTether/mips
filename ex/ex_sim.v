@@ -170,10 +170,10 @@ initial
 
      // J
      ins=#(PERIOD) {6'd2, 26'd64};
-     nextpc={4'd2, 26'd1213};
+     nextpc={4'd2, 28'd1213};
 
      // JAL
      ins=#(PERIOD) {6'd3, 26'd128};
-     nextpc={4'd6, 26'd0};
+     nextpc={4'd6, 28'd0};
 end
 endmodule

@@ -559,3 +559,109 @@ vsim work.ex_sim
 # Loading work.EX
 add wave -position insertpoint sim:/ex_sim/ex1/*
 run 1us
+# Compile of ex.v failed with 2 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/ex1/rec'. 
+vsim work.ex_sim
+# End time: 20:12:56 on Aug 12,2021, Elapsed time: 13:49:50
+# Errors: 0, Warnings: 1
+# vsim work.ex_sim 
+# Start time: 20:12:56 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+restart -f
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 20:21:35 on Aug 12,2021, Elapsed time: 0:08:39
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 20:21:35 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+# Compile of ex.v failed with 3 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 20:26:42 on Aug 12,2021, Elapsed time: 0:05:07
+# Errors: 0, Warnings: 3
+# vsim work.ex_sim 
+# Start time: 20:26:42 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 20:28:20 on Aug 12,2021, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 20:28:20 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+run 1us
+restart -f
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 20:29:38 on Aug 12,2021, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 20:29:38 on Aug 12,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us

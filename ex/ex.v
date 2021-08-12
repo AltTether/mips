@@ -8,7 +8,7 @@ module EX(
 
    reg [31:0]               lo, hi;
    reg [64:0]               reg64;
-   reg [5:0]                rec;
+   reg [27:0]               jadr;
 
    reg [5:0]                Opcode, Funct;
 
@@ -61,12 +61,9 @@ module EX(
 
    function [31:0] getMUX5IJResult (input[5:0] Opcode);
       begin
-         // Debug
-         rec = Opcode;
-
          case(Opcode)
-           J:      getMUX5IJResult = {nextPC[31:28], (Ins[25:0] << 2)};
-           JAL:    getMUX5IJResult = {nextPC[31:28], (Ins[25:0] << 2)};
+           J:      begin jadr = (Ins[25:0] << 2); getMUX5IJResult = {nextPC[31:28], jadr}; end
+           JAL:    begin jadr = (Ins[25:0] << 2); getMUX5IJResult = {nextPC[31:28], jadr}; end
            default getMUX5IJResult = nextPC;
          endcase // case (Opcode)
       end
@@ -74,19 +71,17 @@ module EX(
 
    function [31:0] getMUX5RResult (input[5:0] Fct);
       begin
-         // Debug
-         rec = Fct;
-
          case(Fct)
            JR:     getMUX5RResult = Rdata1;
            JALR:   getMUX5RResult = Rdata1;
            default getMUX5RResult = nextPC;
          endcase
+      end
    endfunction
-
 
    assign Opcode = Ins[31:26];
    assign Funct = Ins[5:0];
+
    //assign MUX2Result = (Opcode == 6'h00) ? Rdata2 : Ed32;
    assign Result = (Opcode == 6'h00) ? getALURResult(Funct) : getALUIResult(Opcode);
    assign newPC = (Opcode == 6'h00) ? getMUX5RResult(Funct) : getMUX5IJResult(Opcode);

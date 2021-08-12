@@ -1,8 +1,8 @@
-/home/noda/workspace/modelsim/mips/ex/ex.v {0 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/ex/ex.v
+/home/noda/workspace/modelsim/mips/ex/ex_sim.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/ex/ex_sim.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module EX
-** Error: (vlog-13069) /home/noda/workspace/modelsim/mips/ex/ex.v(81): near "endfunction": syntax error, unexpected endfunction.
-** Error: /home/noda/workspace/modelsim/mips/ex/ex.v(88): LHS in procedural continuous assignment may not be a net: newPC.
-** Error: (vlog-13069) /home/noda/workspace/modelsim/mips/ex/ex.v(89): near "endmodule": syntax error, unexpected endmodule.
+-- Compiling module ex_sim
 
-} {4.0 7.0} {}}
+Top level modules:
+	ex_sim
+
+} {} {}}
