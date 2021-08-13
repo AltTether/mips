@@ -128,37 +128,38 @@ initial
      ins=#(PERIOD) {6'h00, 20'd0, 6'h07};
      rdata1=32'd1; rdata2=32'd1;
 
-     // MFHI
-     ins=#(PERIOD) {6'h00, 20'd0, 6'h10};
-     rdata1=32'd1; rdata2=32'd1;
-
-     // MTHI
-     ins=#(PERIOD) {6'h00, 20'd0, 6'h11};
-     rdata1=32'd1; rdata2=32'd1;
-
-     // MFLO
-     ins=#(PERIOD) {6'h00, 20'd0, 6'h12};
-     rdata1=32'd1; rdata2=32'd1;
-
-     // MTLO
-     ins=#(PERIOD) {6'h00, 20'd0, 6'h13};
-     rdata1=32'd1; rdata2=32'd1;
-
-     // MULT
+     // MULT, MFHI, MTLO, MFLO, MTLO
      ins=#(PERIOD) {6'h00, 20'd0, 6'h18};
-     rdata1=32'd1; rdata2=32'd1;
+     rdata1=32'd12345678; rdata2=32'd1234567;
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h10};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h11};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h12};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h13};
 
-     // MULTU
+     // MULTU, MFHI, MTLO, MFLO, MTLO
      ins=#(PERIOD) {6'h00, 20'd0, 6'h19};
-     rdata1=32'd1; rdata2=32'd1;
+     rdata1=32'd87654321; rdata2=32'd7654321;
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h10};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h11};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h12};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h13};
 
      // DIV
      ins=#(PERIOD) {6'h00, 20'd0, 6'h1A};
-     rdata1=32'd1; rdata2=32'd1;
+     rdata1=32'd123456789; rdata2=32'd2;
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h10};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h11};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h12};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h13};
 
      // DIVU
      ins=#(PERIOD) {6'h00, 20'd0, 6'h1B};
+     rdata1=32'd123456789; rdata2=32'd2;
      rdata1=32'd1; rdata2=32'd1;
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h10};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h11};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h12};
+     ins=#(PERIOD) {6'h00, 20'd0, 6'h13};
 
      // JR
      ins=#(PERIOD) {6'h00, 20'd0, 6'h08};
@@ -175,5 +176,24 @@ initial
      // JAL
      ins=#(PERIOD) {6'd3, 26'd128};
      nextpc={4'd6, 28'd0};
+
+     // BLTZ
+     ins=#(PERIOD) {6'd1, 20'd0, 6'd0};
+     rdata1=32'd10; rdata2=32'd0; nextpc=32'd12; ed32=32'd24;
+     ins=#(PERIOD) {6'd1, 20'd0, 6'd0};
+     rdata1=-32'd10; rdata2=32'd0; nextpc=32'd12; ed32=32'd24;
+
+     // BGEZ
+     ins=#(PERIOD) {6'd1, 20'd0, 6'd0}; rdata2=32'd100;
+     rdata1=32'd10; rdata2=32'd1; nextpc=32'd12; ed32=32'd24;
+     ins=#(PERIOD) {6'd1, 20'd0, 6'd0}; rdata2=32'd100;
+     rdata1=-32'd10; rdata2=32'd1; nextpc=32'd12; ed32=32'd24;
+
+     // BEQ
+     ins=#(PERIOD) {6'h04, 20'd0, 6'd0};
+     rdata1=32'd10; rdata2=32'd10; nextpc=32'd12; ed32=32'd24;
+     ins=#(PERIOD) {6'h04, 20'd0, 6'd0};
+     rdata1=32'd10; rdata2=32'd20; nextpc=32'd12; ed32=32'd24;
+
 end
 endmodule

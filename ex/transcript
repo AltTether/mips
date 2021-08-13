@@ -1,615 +1,10 @@
 # Loading project ex
-# Compile of ex.v failed with 32 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 32 errors.
 # Compile of ex.v was successful.
 # Compile of ex_sim.v was successful.
 # 2 compiles, 0 failed with no errors.
 vsim work.ex_sim
 # vsim work.ex_sim 
-# Start time: 23:19:12 on Aug 11,2021
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run 1us
-vsim work.ex_sim
-# End time: 23:21:06 on Aug 11,2021, Elapsed time: 0:01:54
-# Errors: 0, Warnings: 1
-# vsim work.ex_sim 
-# Start time: 23:21:06 on Aug 11,2021
-# Loading work.ex_sim
-# Loading work.EX
-restart -f
-run 1us
-add wave sim:/ex_sim/*
-run 1us
-run 1us
-run 100us
-add wave sim:/ex_sim/ex1/#ASSIGN#16/*
-add wave sim:/ex_sim/ex1/*
-run 1us
-vsim work.ex_sim
-# End time: 23:25:15 on Aug 11,2021, Elapsed time: 0:04:09
-# Errors: 0, Warnings: 1
-# vsim work.ex_sim 
-# Start time: 23:25:15 on Aug 11,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/ex1/*
-run 1us
-# 0 compiles, 2 failed with no errors.
-# Project file /home/noda/workspace/modelsim/ex/ex.mpf is write protected, data cannot be saved.
-# Unable to save project.
-# Project file /home/noda/workspace/modelsim/ex/ex.mpf is write protected, data cannot be saved.
-# Unable to save project.
-# End time: 23:58:27 on Aug 11,2021, Elapsed time: 0:33:12
-# Errors: 0, Warnings: 0
-# Closing project /home/noda/workspace/modelsim/ex/ex.mpf
-# Warning: Cannot write compile report file: /home/noda/workspace/modelsim/ex/ex.cr.mti
-# reading /home/noda/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
-# Loading project ex
-# 0 compiles, 2 failed with no errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# No Design Loaded!
-vsim work.ex_sim
-# vsim work.ex_sim 
-# Start time: 00:09:58 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/#INITIAL#32/*
-run 1us
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/jadr'. 
-# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/alu'. 
-# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/op'. 
-vsim work.ex_sim
-# End time: 00:39:35 on Aug 12,2021, Elapsed time: 0:29:37
-# Errors: 0, Warnings: 1
-# vsim work.ex_sim 
-# Start time: 00:39:35 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/#INITIAL#31/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-add wave sim:/ex_sim/*
-add wave sim:/ex_sim/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v failed with 33 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 33 errors.
-# Compile of ex.v failed with 9 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 9 errors.
-# Compile of ex.v failed with 11 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 11 errors.
-# Compile of ex.v failed with 11 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 11 errors.
-# Compile of ex.v failed with 9 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 9 errors.
-# Compile of ex.v failed with 9 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 9 errors.
-# Compile of ex.v failed with 11 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 11 errors.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-add wave sim:/ex_sim/*
-run 1us
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v failed with 7 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 7 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v failed with 6 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 6 errors.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-add wave sim:/ex_sim/ex1/#ASSIGN#62/*
-run 1us
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-add wave sim:/ex_sim/ex1/*
-run 1us
-run 1us
-add wave sim:/ex_sim/*
-run 1us
-add wave sim:/ex_sim/ex1/#ALWAYS#62/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 04:44:55 on Aug 12,2021, Elapsed time: 4:05:20
-# Errors: 0, Warnings: 6
-# vsim work.ex_sim 
-# Start time: 04:44:55 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v failed with 5 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of ex.v failed with 5 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 5 errors.
-# Compile of ex.v failed with 4 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 4 errors.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 05:52:23 on Aug 12,2021, Elapsed time: 1:07:28
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 05:52:23 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-add wave sim:/ex_sim/*
-run 1us
-add wave sim:/ex_sim/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-add wave sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/ex1/jadr'. 
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 06:07:08 on Aug 12,2021, Elapsed time: 0:14:45
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 06:07:08 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 06:13:13 on Aug 12,2021, Elapsed time: 0:06:05
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 06:13:13 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/*
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 06:16:43 on Aug 12,2021, Elapsed time: 0:03:30
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 06:16:43 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v failed with 3 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 3 errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-run 1us
-# Compile of ex.v failed with 3 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 3 errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-run 1us
-# Compile of ex.v failed with 3 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 3 errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-run 1us
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-run 1us
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-vsim work.ex_sim
-# End time: 06:23:06 on Aug 12,2021, Elapsed time: 0:06:23
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 06:23:06 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v failed with 2 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-# Warning in wave window restart: (vish-4014) No objects found matching '/ex_sim/ex1/rec'. 
-vsim work.ex_sim
-# End time: 20:12:56 on Aug 12,2021, Elapsed time: 13:49:50
-# Errors: 0, Warnings: 1
-# vsim work.ex_sim 
-# Start time: 20:12:56 on Aug 12,2021
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-restart -f
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 20:21:35 on Aug 12,2021, Elapsed time: 0:08:39
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 20:21:35 on Aug 12,2021
+# Start time: 07:50:17 on Aug 13,2021
 # Loading work.ex_sim
 # Loading work.EX
 add wave -position insertpoint sim:/ex_sim/ex1/*
@@ -617,22 +12,59 @@ run 1us
 # Compile of ex.v was successful.
 # Compile of ex_sim.v was successful.
 # 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-# Compile of ex.v failed with 3 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 3 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim work.ex_sim
-# End time: 20:26:42 on Aug 12,2021, Elapsed time: 0:05:07
+# End time: 07:53:06 on Aug 13,2021, Elapsed time: 0:02:49
 # Errors: 0, Warnings: 3
 # vsim work.ex_sim 
-# Start time: 20:26:42 on Aug 12,2021
+# Start time: 07:53:06 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+restart -f
+run 1us
+restart -f
+run 1us
+# Compile of ex.v failed with 1 errors.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 07:55:22 on Aug 13,2021, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 3
+# vsim work.ex_sim 
+# Start time: 07:55:22 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 07:57:16 on Aug 13,2021, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 07:57:16 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_sim
+# Loading work.EX
+run 1us
+vsim work.ex_sim
+# End time: 07:58:51 on Aug 13,2021, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 1
+# vsim work.ex_sim 
+# Start time: 07:58:51 on Aug 13,2021
 # Loading work.ex_sim
 # Loading work.EX
 add wave -position insertpoint sim:/ex_sim/ex1/*
@@ -641,26 +73,414 @@ run 1us
 # Compile of ex_sim.v was successful.
 # 2 compiles, 0 failed with no errors.
 vsim work.ex_sim
-# End time: 20:28:20 on Aug 12,2021, Elapsed time: 0:01:38
+# End time: 08:00:01 on Aug 13,2021, Elapsed time: 0:01:10
 # Errors: 0, Warnings: 2
 # vsim work.ex_sim 
-# Start time: 20:28:20 on Aug 12,2021
+# Start time: 08:00:01 on Aug 13,2021
 # Loading work.ex_sim
 # Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:01:34 on Aug 13,2021, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 5
+# vsim work.ex_sim 
+# Start time: 08:01:34 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:03:15 on Aug 13,2021, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:03:15 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:03:57 on Aug 13,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:03:57 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:04:55 on Aug 13,2021, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:04:55 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:05:49 on Aug 13,2021, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:05:49 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:06:52 on Aug 13,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:06:52 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:08:19 on Aug 13,2021, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:08:19 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:09:35 on Aug 13,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:09:35 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:10:50 on Aug 13,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:10:50 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:11:42 on Aug 13,2021, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:11:42 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:42:54 on Aug 13,2021, Elapsed time: 0:31:12
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:42:54 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:44:11 on Aug 13,2021, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:44:11 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:45:42 on Aug 13,2021, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:45:42 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:46:46 on Aug 13,2021, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:46:46 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:48:05 on Aug 13,2021, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:48:05 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:48:42 on Aug 13,2021, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:48:42 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:54:01 on Aug 13,2021, Elapsed time: 0:05:19
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:54:01 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:55:15 on Aug 13,2021, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 3
+# vsim work.ex_sim 
+# Start time: 08:55:15 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 08:56:13 on Aug 13,2021, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 08:56:13 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/*
 run 1us
 add wave -position insertpoint sim:/ex_sim/ex1/*
 run 1us
 run 1us
 restart -f
+runs 1u
+# invalid command name "runs"
 run 1us
 # Compile of ex.v was successful.
 # Compile of ex_sim.v was successful.
 # 2 compiles, 0 failed with no errors.
 vsim work.ex_sim
-# End time: 20:29:38 on Aug 12,2021, Elapsed time: 0:01:18
+# End time: 09:01:31 on Aug 13,2021, Elapsed time: 0:05:18
 # Errors: 0, Warnings: 2
 # vsim work.ex_sim 
-# Start time: 20:29:38 on Aug 12,2021
+# Start time: 09:01:31 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:02:53 on Aug 13,2021, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:02:53 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:03:39 on Aug 13,2021, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:03:39 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:06:25 on Aug 13,2021, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:06:25 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:07:29 on Aug 13,2021, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:07:29 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:08:39 on Aug 13,2021, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:08:39 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:10:02 on Aug 13,2021, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:10:02 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:13:39 on Aug 13,2021, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:13:39 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/#INITIAL#31/*
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:14:55 on Aug 13,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:14:55 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:15:34 on Aug 13,2021, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:15:34 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:16:34 on Aug 13,2021, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:16:34 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:17:30 on Aug 13,2021, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:17:30 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:18:13 on Aug 13,2021, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:18:13 on Aug 13,2021
+# Loading work.ex_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex_sim
+# End time: 09:21:25 on Aug 13,2021, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 2
+# vsim work.ex_sim 
+# Start time: 09:21:25 on Aug 13,2021
 # Loading work.ex_sim
 # Loading work.EX
 add wave -position insertpoint sim:/ex_sim/ex1/*
