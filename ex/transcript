@@ -1,1258 +1,860 @@
 # Loading project ex
+# reading /home/noda/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project scmips
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# vsim work.ex_sim 
-# Start time: 07:50:17 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 07:53:06 on Aug 13,2021, Elapsed time: 0:02:49
-# Errors: 0, Warnings: 3
-# vsim work.ex_sim 
-# Start time: 07:53:06 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-restart -f
-run 1us
-restart -f
-run 1us
-# Compile of ex.v failed with 1 errors.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 07:55:22 on Aug 13,2021, Elapsed time: 0:02:16
-# Errors: 0, Warnings: 3
-# vsim work.ex_sim 
-# Start time: 07:55:22 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 07:57:16 on Aug 13,2021, Elapsed time: 0:01:54
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 07:57:16 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim
-# Loading work.EX
-run 1us
-vsim work.ex_sim
-# End time: 07:58:51 on Aug 13,2021, Elapsed time: 0:01:35
-# Errors: 0, Warnings: 1
-# vsim work.ex_sim 
-# Start time: 07:58:51 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:00:01 on Aug 13,2021, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:00:01 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:01:34 on Aug 13,2021, Elapsed time: 0:01:33
-# Errors: 0, Warnings: 5
-# vsim work.ex_sim 
-# Start time: 08:01:34 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:03:15 on Aug 13,2021, Elapsed time: 0:01:41
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:03:15 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:03:57 on Aug 13,2021, Elapsed time: 0:00:42
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:03:57 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:04:55 on Aug 13,2021, Elapsed time: 0:00:58
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:04:55 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:05:49 on Aug 13,2021, Elapsed time: 0:00:54
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:05:49 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:06:52 on Aug 13,2021, Elapsed time: 0:01:03
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:06:52 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:08:19 on Aug 13,2021, Elapsed time: 0:01:27
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:08:19 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:09:35 on Aug 13,2021, Elapsed time: 0:01:16
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:09:35 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:10:50 on Aug 13,2021, Elapsed time: 0:01:15
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:10:50 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:11:42 on Aug 13,2021, Elapsed time: 0:00:52
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:11:42 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:42:54 on Aug 13,2021, Elapsed time: 0:31:12
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:42:54 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:44:11 on Aug 13,2021, Elapsed time: 0:01:17
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:44:11 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:45:42 on Aug 13,2021, Elapsed time: 0:01:31
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:45:42 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:46:46 on Aug 13,2021, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:46:46 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:48:05 on Aug 13,2021, Elapsed time: 0:01:19
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:48:05 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:48:42 on Aug 13,2021, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:48:42 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:54:01 on Aug 13,2021, Elapsed time: 0:05:19
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:54:01 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:55:15 on Aug 13,2021, Elapsed time: 0:01:14
-# Errors: 0, Warnings: 3
-# vsim work.ex_sim 
-# Start time: 08:55:15 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 08:56:13 on Aug 13,2021, Elapsed time: 0:00:58
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 08:56:13 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/*
-run 1us
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-run 1us
-restart -f
-runs 1u
-# invalid command name "runs"
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:01:31 on Aug 13,2021, Elapsed time: 0:05:18
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:01:31 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:02:53 on Aug 13,2021, Elapsed time: 0:01:22
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:02:53 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:03:39 on Aug 13,2021, Elapsed time: 0:00:46
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:03:39 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:06:25 on Aug 13,2021, Elapsed time: 0:02:46
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:06:25 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:07:29 on Aug 13,2021, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:07:29 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:08:39 on Aug 13,2021, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:08:39 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:10:02 on Aug 13,2021, Elapsed time: 0:01:23
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:10:02 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:13:39 on Aug 13,2021, Elapsed time: 0:03:37
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:13:39 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/#INITIAL#31/*
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:14:55 on Aug 13,2021, Elapsed time: 0:01:16
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:14:55 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:15:34 on Aug 13,2021, Elapsed time: 0:00:39
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:15:34 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:16:34 on Aug 13,2021, Elapsed time: 0:01:00
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:16:34 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:17:30 on Aug 13,2021, Elapsed time: 0:00:56
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:17:30 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:18:13 on Aug 13,2021, Elapsed time: 0:00:43
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:18:13 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:21:25 on Aug 13,2021, Elapsed time: 0:03:12
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:21:25 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.ex_sim
-# End time: 09:25:10 on Aug 13,2021, Elapsed time: 0:03:45
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim 
-# Start time: 09:25:10 on Aug 13,2021
-# Loading work.ex_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:31:38 on Aug 13,2021, Elapsed time: 0:06:28
-# Errors: 0, Warnings: 5
-# vsim work.ex_sim_bug 
-# Start time: 09:31:38 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/*
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:32:36 on Aug 13,2021, Elapsed time: 0:00:58
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:32:36 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:34:16 on Aug 13,2021, Elapsed time: 0:01:40
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:34:16 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:35:09 on Aug 13,2021, Elapsed time: 0:00:53
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:35:09 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:36:26 on Aug 13,2021, Elapsed time: 0:01:17
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:36:26 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:37:57 on Aug 13,2021, Elapsed time: 0:01:31
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:37:57 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:38:48 on Aug 13,2021, Elapsed time: 0:00:51
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:38:48 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:40:24 on Aug 13,2021, Elapsed time: 0:01:36
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:40:24 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim_bug
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_sim_bug
-# Loading work.EX
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# 3 compiles, 0 failed with no errors.
-vsim work.ex_sim_bug
-# End time: 09:41:47 on Aug 13,2021, Elapsed time: 0:01:23
-# Errors: 0, Warnings: 2
-# vsim work.ex_sim_bug 
-# Start time: 09:41:47 on Aug 13,2021
-# Loading work.ex_sim_bug
-# Loading work.EX
-add wave -position insertpoint sim:/ex_sim_bug/ex2/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 2 errors.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 2 errors.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 2 errors.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 1 errors.
-# 5 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 2 errors.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 1 errors.
-# 5 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v failed with 1 errors.
-# Compile of id.v was successful.
-# 5 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
+# Compile of scmips_sim.v was successful.
+# 3 compiles, 0 failed with no errors.
 vsim work.ex_id_sim
-# End time: 10:30:54 on Aug 13,2021, Elapsed time: 0:49:07
-# Errors: 0, Warnings: 13
 # vsim work.ex_id_sim 
-# Start time: 10:30:54 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.EX
-add wave -position insertpoint sim:/ex_id_sim/ex1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v failed with 2 errors.
-# Compile of id.v was successful.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v failed with 1 errors.
-# Compile of id.v was successful.
-# 5 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v failed with 2 errors.
-# Compile of id.v was successful.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:41:33 on Aug 13,2021, Elapsed time: 0:10:39
-# Errors: 0, Warnings: 5
-# vsim work.ex_id_sim 
-# Start time: 10:41:33 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'Wdata'. The port definition is at: /home/noda/workspace/modelsim/mips/ex/id.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Load canceled
-vsim work.ex_id_sim
-# End time: 10:42:11 on Aug 13,2021, Elapsed time: 0:00:38
-# Errors: 0, Warnings: 3
-# vsim work.ex_id_sim 
-# Start time: 10:42:11 on Aug 13,2021
+# Start time: 22:37:26 on Aug 13,2021
 # Loading work.ex_id_sim
 # Loading work.ID
 add wave -position insertpoint sim:/ex_id_sim/id1/*
 run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v failed with 1 errors.
-# Compile of id.v was successful.
-# 5 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:46:45 on Aug 13,2021, Elapsed time: 0:04:34
-# Errors: 0, Warnings: 3
-# vsim work.ex_id_sim 
-# Start time: 10:46:45 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
 run 1us
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:47:35 on Aug 13,2021, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 10:47:35 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
+# Compile of scmips_sim.v failed with 2 errors.
+# Compile of if.v was successful.
+# 4 compiles, 1 failed with 2 errors.
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v failed with 1 errors.
 # Compile of id.v was successful.
-# 5 compiles, 1 failed with 1 error.
+# Compile of scmips_sim.v failed with 2 errors.
+# Compile of if.v was successful.
+# 4 compiles, 1 failed with 2 errors.
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:49:18 on Aug 13,2021, Elapsed time: 0:01:43
-# Errors: 0, Warnings: 3
-# vsim work.ex_id_sim 
-# Start time: 10:49:18 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_id_sim
-# Loading work.ID
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_id_sim
-# Loading work.ID
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_id_sim
-# Loading work.ID
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:54:03 on Aug 13,2021, Elapsed time: 0:04:45
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 10:54:03 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Rdata1'.
-#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Rdata2'.
-#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Ed32'.
-#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:51:18 on Aug 13,2021, Elapsed time: 0:13:52
+# Errors: 0, Warnings: 9
+# vsim work.scmips_sim 
+# Start time: 22:51:18 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# ** Error (suppressible): (vsim-3389) Port 'WE' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1 File: /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v Line: 20
 # Error loading design
-# End time: 10:54:03 on Aug 13,2021, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 1
+# End time: 22:51:18 on Aug 13,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# vsim work.ex_id_sim 
-# Start time: 10:55:09 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# vsim work.scmips_sim 
+# Start time: 22:52:15 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# ** Error (suppressible): (vsim-3389) Port 'WE' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1 File: /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v Line: 20
+# Error loading design
+# End time: 22:52:15 on Aug 13,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# vsim work.scmips_sim 
+# Start time: 22:52:37 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-7) Failed to open readmem file "IMem.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/noda/workspace/modelsim/mips/scmips/if.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
 run 1us
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:58:12 on Aug 13,2021, Elapsed time: 0:03:03
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(12)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v failed with 1 errors.
+# Compile of if.v failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:02:40 on Aug 13,2021, Elapsed time: 0:10:03
+# Errors: 0, Warnings: 5
+# vsim work.scmips_sim 
+# Start time: 23:02:40 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:03:38 on Aug 13,2021, Elapsed time: 0:00:58
 # Errors: 0, Warnings: 3
-# vsim work.ex_id_sim 
-# Start time: 10:58:12 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
+# vsim work.scmips_sim 
+# Start time: 23:03:38 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+add wave -position insertpoint sim:/scmips_sim/if1/*
 run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 10:58:45 on Aug 13,2021, Elapsed time: 0:00:33
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 10:58:45 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:08:25 on Aug 13,2021, Elapsed time: 0:09:40
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:08:25 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:13:35 on Aug 13,2021, Elapsed time: 0:05:10
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:13:35 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1u
-# Invalid time value: 1u
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:16:05 on Aug 13,2021, Elapsed time: 0:02:30
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:16:05 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:19:50 on Aug 13,2021, Elapsed time: 0:03:45
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:19:50 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:21:37 on Aug 13,2021, Elapsed time: 0:01:47
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:21:37 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1u
-# Invalid time value: 1u
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:22:54 on Aug 13,2021, Elapsed time: 0:01:17
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:22:54 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:25:23 on Aug 13,2021, Elapsed time: 0:02:29
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:25:23 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:29:06 on Aug 13,2021, Elapsed time: 0:03:43
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:29:06 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:29:27 on Aug 13,2021, Elapsed time: 0:00:21
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:29:27 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:35:00 on Aug 13,2021, Elapsed time: 0:05:33
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:07:00 on Aug 13,2021, Elapsed time: 0:03:22
 # Errors: 0, Warnings: 3
-# vsim work.ex_id_sim 
-# Start time: 11:35:00 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
+# vsim work.scmips_sim 
+# Start time: 23:07:02 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+add wave -position insertpoint sim:/scmips_sim/if1/*
 run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:36:33 on Aug 13,2021, Elapsed time: 0:01:33
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:08:05 on Aug 13,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:08:05 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:09:08 on Aug 13,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:09:08 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:11:47 on Aug 13,2021, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 23:11:47 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v failed with 5 errors.
+# Compile of if.v was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v failed with 1 errors.
+# Compile of if.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:14:00 on Aug 13,2021, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 6
+# vsim work.scmips_sim 
+# Start time: 23:14:00 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:17:02 on Aug 13,2021, Elapsed time: 0:03:02
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:17:02 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:17:55 on Aug 13,2021, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:17:55 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v failed with 1 errors.
+# Compile of if.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v failed with 1 errors.
+# Compile of if.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:21:50 on Aug 13,2021, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 7
+# vsim work.scmips_sim 
+# Start time: 23:21:50 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:25:28 on Aug 13,2021, Elapsed time: 0:03:38
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:25:28 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+vsim work.scmips_sim
+# End time: 23:25:54 on Aug 13,2021, Elapsed time: 0:00:26
 # Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:36:33 on Aug 13,2021
-# Loading work.ex_id_sim
+# vsim work.scmips_sim 
+# Start time: 23:25:54 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
 # Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:27:50 on Aug 13,2021, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:27:50 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:35:42 on Aug 13,2021, Elapsed time: 0:07:52
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:35:42 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:36:44 on Aug 13,2021, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:36:44 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:37:33 on Aug 13,2021, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:37:33 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:38:23 on Aug 13,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:38:23 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:40:32 on Aug 13,2021, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:40:32 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:42:15 on Aug 13,2021, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:42:15 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+run 1us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/if1/*
 run 1us
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 23:51:28 on Aug 13,2021, Elapsed time: 0:09:13
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:51:30 on Aug 13,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:09:29 on Aug 14,2021, Elapsed time: 0:17:59
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 00:09:29 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
 # 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:38:34 on Aug 13,2021, Elapsed time: 0:02:01
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:38:34 on Aug 13,2021
-# Loading work.ex_id_sim
+vsim work.scmips_sim
+# End time: 00:17:46 on Aug 14,2021, Elapsed time: 0:08:17
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 00:17:46 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
 # Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
+# Loading work.EX
+# Loading work.DM
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Wdata'.
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/dm1 File: /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v Line: 48
+# Error loading design
+# End time: 00:17:46 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
 # Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
 # Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# vsim work.scmips_sim 
+# Start time: 00:18:34 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/dm1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+add wave -position insertpoint sim:/scmips_sim/if1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:26:30 on Aug 14,2021, Elapsed time: 0:07:56
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 00:26:30 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:34:07 on Aug 14,2021, Elapsed time: 0:07:37
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 00:34:07 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
 # 5 compiles, 0 failed with no errors.
 restart -f
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.ex_id_sim
+# Loading work.scmips_sim
+# Loading work.IF
 # Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
 run 1us
-vsim work.ex_id_sim
-# End time: 11:43:28 on Aug 13,2021, Elapsed time: 0:04:54
-# Errors: 0, Warnings: 1
-# vsim work.ex_id_sim 
-# Start time: 11:43:28 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v failed with 2 errors.
 # Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:43:40 on Aug 13,2021, Elapsed time: 0:00:12
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:43:40 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:46:48 on Aug 13,2021, Elapsed time: 0:03:08
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:46:48 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:49:31 on Aug 13,2021, Elapsed time: 0:02:43
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:49:31 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 2 errors.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
 # 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v failed with 2 errors.
-# 5 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:52:30 on Aug 13,2021, Elapsed time: 0:02:59
-# Errors: 0, Warnings: 4
-# vsim work.ex_id_sim 
-# Start time: 11:52:30 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:54:16 on Aug 13,2021, Elapsed time: 0:01:46
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:54:16 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:54:58 on Aug 13,2021, Elapsed time: 0:00:42
-# Errors: 0, Warnings: 2
-# vsim work.ex_id_sim 
-# Start time: 11:54:58 on Aug 13,2021
-# Loading work.ex_id_sim
-# Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
-run 1us
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-# Compile of ex.v was successful.
-# Compile of ex_sim.v was successful.
-# Compile of ex_sim_bug.v was successful.
-# Compile of ex_id_sim.v was successful.
-# Compile of id.v was successful.
-# 5 compiles, 0 failed with no errors.
-vsim work.ex_id_sim
-# End time: 11:56:09 on Aug 13,2021, Elapsed time: 0:01:11
+vsim work.scmips_sim
+# End time: 00:50:22 on Aug 14,2021, Elapsed time: 0:16:15
 # Errors: 0, Warnings: 3
-# vsim work.ex_id_sim 
-# Start time: 11:56:09 on Aug 13,2021
-# Loading work.ex_id_sim
+# vsim work.scmips_sim 
+# Start time: 00:50:22 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
 # Loading work.ID
-add wave -position insertpoint sim:/ex_id_sim/id1/*
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
 run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v failed with 2 errors.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:51:28 on Aug 14,2021, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 00:51:28 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v failed with 1 errors.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:54:40 on Aug 14,2021, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 00:54:40 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:58:55 on Aug 14,2021, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 00:58:55 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 4 errors.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 3 errors.
+# 5 compiles, 1 failed with 3 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 01:02:22 on Aug 14,2021, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 6
+# vsim work.scmips_sim 
+# Start time: 01:02:22 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
