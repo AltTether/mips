@@ -643,3 +643,616 @@ vsim work.ex_sim_bug
 # Loading work.EX
 add wave -position insertpoint sim:/ex_sim_bug/ex2/*
 run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v failed with 1 errors.
+# Compile of id.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:30:54 on Aug 13,2021, Elapsed time: 0:49:07
+# Errors: 0, Warnings: 13
+# vsim work.ex_id_sim 
+# Start time: 10:30:54 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.EX
+add wave -position insertpoint sim:/ex_id_sim/ex1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v failed with 2 errors.
+# Compile of id.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v failed with 1 errors.
+# Compile of id.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v failed with 2 errors.
+# Compile of id.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:41:33 on Aug 13,2021, Elapsed time: 0:10:39
+# Errors: 0, Warnings: 5
+# vsim work.ex_id_sim 
+# Start time: 10:41:33 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'Wdata'. The port definition is at: /home/noda/workspace/modelsim/mips/ex/id.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.ex_id_sim
+# End time: 10:42:11 on Aug 13,2021, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 3
+# vsim work.ex_id_sim 
+# Start time: 10:42:11 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v failed with 1 errors.
+# Compile of id.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:46:45 on Aug 13,2021, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 3
+# vsim work.ex_id_sim 
+# Start time: 10:46:45 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:47:35 on Aug 13,2021, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 10:47:35 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v failed with 1 errors.
+# Compile of id.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:49:18 on Aug 13,2021, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 3
+# vsim work.ex_id_sim 
+# Start time: 10:49:18 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_id_sim
+# Loading work.ID
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_id_sim
+# Loading work.ID
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_id_sim
+# Loading work.ID
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:54:03 on Aug 13,2021, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 10:54:03 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Rdata1'.
+#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Rdata2'.
+#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'Ed32'.
+#    Time: 0 ps  Iteration: 0  Instance: /ex_id_sim/id1 File: /home/noda/workspace/modelsim/mips/ex/ex_id_sim.v Line: 34
+# Error loading design
+# End time: 10:54:03 on Aug 13,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 1
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# vsim work.ex_id_sim 
+# Start time: 10:55:09 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:58:12 on Aug 13,2021, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 3
+# vsim work.ex_id_sim 
+# Start time: 10:58:12 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 10:58:45 on Aug 13,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 10:58:45 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:08:25 on Aug 13,2021, Elapsed time: 0:09:40
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:08:25 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:13:35 on Aug 13,2021, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:13:35 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1u
+# Invalid time value: 1u
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:16:05 on Aug 13,2021, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:16:05 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:19:50 on Aug 13,2021, Elapsed time: 0:03:45
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:19:50 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:21:37 on Aug 13,2021, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:21:37 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1u
+# Invalid time value: 1u
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:22:54 on Aug 13,2021, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:22:54 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:25:23 on Aug 13,2021, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:25:23 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:29:06 on Aug 13,2021, Elapsed time: 0:03:43
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:29:06 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:29:27 on Aug 13,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:29:27 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:35:00 on Aug 13,2021, Elapsed time: 0:05:33
+# Errors: 0, Warnings: 3
+# vsim work.ex_id_sim 
+# Start time: 11:35:00 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:36:33 on Aug 13,2021, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:36:33 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:38:34 on Aug 13,2021, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:38:34 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex_id_sim
+# Loading work.ID
+run 1us
+vsim work.ex_id_sim
+# End time: 11:43:28 on Aug 13,2021, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 1
+# vsim work.ex_id_sim 
+# Start time: 11:43:28 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:43:40 on Aug 13,2021, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:43:40 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:46:48 on Aug 13,2021, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:46:48 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:49:31 on Aug 13,2021, Elapsed time: 0:02:43
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:49:31 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:52:30 on Aug 13,2021, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 4
+# vsim work.ex_id_sim 
+# Start time: 11:52:30 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:54:16 on Aug 13,2021, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:54:16 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:54:58 on Aug 13,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# vsim work.ex_id_sim 
+# Start time: 11:54:58 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of ex_sim.v was successful.
+# Compile of ex_sim_bug.v was successful.
+# Compile of ex_id_sim.v was successful.
+# Compile of id.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.ex_id_sim
+# End time: 11:56:09 on Aug 13,2021, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 3
+# vsim work.ex_id_sim 
+# Start time: 11:56:09 on Aug 13,2021
+# Loading work.ex_id_sim
+# Loading work.ID
+add wave -position insertpoint sim:/ex_id_sim/id1/*
+run 1us

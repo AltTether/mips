@@ -65,6 +65,9 @@ module EX(
            BNE:    getALUIResult = Rdata1 != Rdata2;
            BLEZ:   getALUIResult = Rdata1 <= 0;
            BGTZ:   getALUIResult = Rdata1 > 0;
+           // Load and Store
+           LW:     getALUIResult = Rdata1 + Ed32;
+           SW:     getALUIResult = Rdata1 + Ed32;
            default getALUIResult = 32'd0;
          endcase // case (Opcode)
       end
