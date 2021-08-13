@@ -78,7 +78,7 @@ module EX(
 
            BLTZ:   begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; end
            BGEZ:   begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; end
-           BEQ:    begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; Result = 32'd0; end
+           BEQ:    begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; end
            BNE:    begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; Result = 32'd0; end
            BLEZ:   begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; Result = 32'd0; end
            BGTZ:   begin getMUX5IJResult = (Result) ? nextPC + (Ed32 << 2) : nextPC; Result = 32'd0; end
