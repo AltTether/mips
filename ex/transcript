@@ -1589,3 +1589,24 @@ restart -f
 run 1us
 # ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 07:34:49 on Aug 15,2021, Elapsed time: 0:30:48
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 07:34:49 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 11 of file "IMems/IMem63_4.txt". Expected 64, found 10.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us

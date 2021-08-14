@@ -84,9 +84,9 @@ module EX(
            BLTZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
            BGEZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
            BEQ:    begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
-           BNE:    begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; result = 32'd0; end
-           BLEZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; result = 32'd0; end
-           BGTZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; result = 32'd0; end
+           BNE:    begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
+           BLEZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
+           BGTZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
            default getMUX5IJResult = nextpc;
          endcase // case (Opcode)
       end
