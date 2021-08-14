@@ -6,7 +6,7 @@ module ID(
 `include "common_param.vh"
 
    reg [5:0]                Opcode, Funct;
-   reg [4:0]                Wadr, Wadr1, Wadr2;
+   reg [4:0]                Wadr;
    reg [4:0]                Radr1, Radr2;
    reg [31:0]               RegFile [0:REGFILE_SIZE-1];
    reg [31:0]               rec1, rec2, rec3;
@@ -25,16 +25,13 @@ module ID(
       if ((BGTZ < Opcode || Opcode == JAL || Opcode == 6'h00) && Opcode != SW && Funct != JR) RegFile[Wadr] = Wdata;
    end
 
-   function [4:0] getMUX1Result(opc, input[31:0] ins);
+   function [4:0] getMUX1Result(input[5:0] opc, input[31:0] ins);
       if (opc == 6'h00) getMUX1Result = ins[15:11];
       else if (opc == JAL) getMUX1Result = 5'b11111;
       else getMUX1Result = ins[20:16];
    endfunction
 
    assign Wadr = getMUX1Result(Opcode, Ins);
-   assign Wadr2 = Ins[15:11];
-   assign Wadr1 = Ins[20:16];
-
 
    assign Radr1 = Ins[25:21];
    assign Radr2 = Ins[20:16];

@@ -10,7 +10,7 @@ module IF (
    reg [31:0]                PC;
 
    initial begin
-      $readmemb("IMem.txt", IMem, 8'h00, 8'h0f);
+      $readmemb("IMems/IMem63_2.txt", IMem, 8'h00, 8'h3f);
    end
 
    always @(posedge CLK) begin

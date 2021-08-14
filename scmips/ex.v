@@ -11,11 +11,11 @@ module EX(
    reg [27:0]               jadr;
    reg [31:0]               rec1, rec2, rec3, rec4, rec5;
 
-   reg [5:0]                Opcode, Funct;
+   reg [5:0]                Opcode, Funct, Shamt;
 
    // Instructions for RType
-   function [31:0] getALURResult (input[6:0] Funct, input[31:0] rdata1, rdata2);
-      case(Funct)
+   function [31:0] getALURResult (input[6:0] fct, input[31:0] rdata1, rdata2, input[4:0] shamt);
+      case(fct)
         ADD:    getALURResult = rdata1 + rdata2;
         ADDU:   getALURResult = rdata1 + rdata2;
         SUB:    getALURResult = rdata1 - rdata2;
@@ -27,8 +27,8 @@ module EX(
         SLT:    getALURResult = rdata1 < rdata2;
         SLTU:   getALURResult = rdata1 < rdata2;
         // Shift Op
-        SLL:    getALURResult = rdata1 << rdata2;
-        SRL:    getALURResult = rdata1 >> rdata2;
+        SLL:    getALURResult = rdata2 << shamt;
+        SRL:    getALURResult = rdata2 >> shamt;
         // TODO: research how to do on arithmetic shift
         SRA:    getALURResult = rdata1 >> rdata2;
         SLLV:   getALURResult = rdata1 << rdata2;
@@ -104,11 +104,12 @@ module EX(
 
    assign Opcode = Ins[31:26];
    assign Funct = Ins[5:0];
+   assign Shamt = Ins[10:6];
 
    assign rec4 = Rdata1;
    assign rec5 = Ed32;
    
    //assign MUX2Result = (Opcode == 6'h00) ? Rdata2 : Ed32;
-   assign Result = (Opcode == 6'h00) ? getALURResult(Funct, Rdata1, Rdata2) : getALUIResult(Opcode, Rdata2, Rdata1, Ed32);
+   assign Result = (Opcode == 6'h00) ? getALURResult(Funct, Rdata1, Rdata2, Shamt) : getALUIResult(Opcode, Rdata1, Rdata2, Ed32);
    assign newPC = (Opcode == 6'h00) ? getMUX5RResult(Funct, Rdata1, nextPC) : getMUX5IJResult(Opcode, Ins, Ed32, nextPC, Result);
 endmodule

@@ -19,7 +19,7 @@ module DM(
       else if (~RST && Opcode == SW) DMem[Result] = Rdata2;
    end
 
-   function [31:0] getMUX3Result(opc, fct, result, nextpc);
+   function [31:0] getMUX3Result(input[5:0] opc, fct, input[31:0] result, nextpc);
       begin
          case(opc)
            LW:     getMUX3Result = DMem[result];

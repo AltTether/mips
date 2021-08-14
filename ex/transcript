@@ -858,3 +858,690 @@ add wave -position insertpoint sim:/scmips_sim/ex1/*
 run 1us
 # ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:22:52 on Aug 14,2021, Elapsed time: 21:20:30
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 22:22:52 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:26:29 on Aug 14,2021, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 22:26:29 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem2.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem2.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+compile
+# wrong # args: should be "compile w cmd ?arg ...?"
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:29:34 on Aug 14,2021, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 22:29:34 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:39:25 on Aug 14,2021, Elapsed time: 0:09:51
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 22:39:25 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart 
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+1us 
+# invalid command name "1us"
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem2.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+run 1us
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:44:22 on Aug 14,2021, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 22:44:22 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1u
+# Invalid time value: 1u
+run us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 1us
+step -over
+step -current
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+1us
+# invalid command name "1us"
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.scmips_sim
+# End time: 22:54:10 on Aug 14,2021, Elapsed time: 0:09:48
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 22:54:10 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 22:58:46 on Aug 14,2021, Elapsed time: 0:04:36
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 22:58:46 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMems/IMem.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 16, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "IMems/IMem63_1.txt".    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+run 1us
+vsim work.scmips_sim
+# End time: 23:39:53 on Aug 14,2021, Elapsed time: 0:41:07
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 23:39:53 on Aug 14,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 16, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 16, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+run 1us
+add wave -position insertpoint sim:/scmips_sim/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/dm1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:40:54 on Aug 15,2021, Elapsed time: 1:01:01
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 00:40:54 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 16, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 2 of file "IMems/IMem63_2.txt". Expected 16, found 1.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart 
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart 
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 00:50:27 on Aug 15,2021, Elapsed time: 0:09:33
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 00:50:27 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem63_2.txt". Expected 16, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 01:01:32 on Aug 15,2021, Elapsed time: 0:11:05
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 01:01:32 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+vsim work.scmips_sim
+# End time: 01:01:47 on Aug 15,2021, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim work.scmips_sim 
+# Start time: 01:01:47 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run run 1us
+# Invalid time value: run 1us
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 13 of file "IMems/IMem63_2.txt". Expected 16, found 12.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+restart 
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 13 of file "IMems/IMem63_2.txt". Expected 16, found 12.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+run 1us
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMems/IMem63_2.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMems/IMem63_2.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 01:27:29 on Aug 15,2021, Elapsed time: 0:25:42
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 01:27:29 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 17 of file "IMems/IMem63_2.txt". (Current address [16], address range [0:15])    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v failed with 4 errors.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of ex.v failed with 1 errors.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 01:44:50 on Aug 15,2021, Elapsed time: 0:17:21
+# Errors: 0, Warnings: 5
+# vsim work.scmips_sim 
+# Start time: 01:44:50 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
