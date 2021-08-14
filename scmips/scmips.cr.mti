@@ -1,16 +1,16 @@
-/home/noda/workspace/modelsim/mips/scmips/if.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/if.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module IF
-
-Top level modules:
-	IF
-
-} {} {}} /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v
+/home/noda/workspace/modelsim/mips/scmips/scmips_sim.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module scmips_sim
 
 Top level modules:
 	scmips_sim
+
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/ex.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/ex.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EX
+
+Top level modules:
+	EX
 
 } {} {}} /home/noda/workspace/modelsim/mips/scmips/dm.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/dm.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
