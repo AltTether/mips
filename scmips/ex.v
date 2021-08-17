@@ -10,7 +10,7 @@ module EX(
    reg [64:0]               reg64;
    reg [27:0]               jadr;
 
-   reg [5:0]                Opcode, Funct, Shamt;
+   wire [5:0]               Opcode, Funct, Shamt;
 
    // Instructions for RType
    function [31:0] getALURResult (input[6:0] fct, input[31:0] rdata1, rdata2, input[4:0] shamt);

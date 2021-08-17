@@ -4,10 +4,12 @@ module DM(
           output [31:0] Wdata);
 `include "common_param.vh"
 
-   integer              i;
    reg [31:0]           DMem [0:DMEM_SIZE-1];
-   reg [5:0]            Opcode, Funct;
-   reg [31:0]           Adr;
+
+   wire [5:0]           Opcode, Funct;
+   wire [31:0]          Adr;
+
+   integer              i;
 
    initial begin
       for (i = 0; i < DMEM_SIZE; i = i + 1) DMem[i] = 32'd0;

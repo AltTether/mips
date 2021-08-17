@@ -6,9 +6,10 @@ module ID(
 `include "common_param.vh"
 
    reg [31:0]               RegFile [0:REGFILE_SIZE-1];
-   reg [5:0]                Opcode, Funct;
-   reg [4:0]                Wadr;
-   reg [4:0]                Radr1, Radr2;
+
+   wire [5:0]                Opcode, Funct;
+   wire [4:0]                Wadr;
+   wire [4:0]                Radr1, Radr2;
 
    integer                  i;
    

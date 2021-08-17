@@ -1610,3 +1610,1234 @@ run 1us
 # ** Warning: (vsim-PLI-3408) Too few data words read on line 11 of file "IMems/IMem63_4.txt". Expected 64, found 10.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
 run 10us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 10:45:18 on Aug 15,2021, Elapsed time: 3:10:29
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 10:45:18 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-7) Failed to open readmem file "IMems/IMem63_5.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 10:46:00 on Aug 15,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 10:46:00 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 20 of file "IMems/IMem64_5.txt". Expected 64, found 19.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 20 of file "IMems/IMem64_5.txt". Expected 64, found 19.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# WARNING: No extended dataflow license exists
+run 100us
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run 10us
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run 10us
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 10:50:29 on Aug 15,2021, Elapsed time: 0:04:29
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 10:50:29 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 10us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 20 of file "IMems/IMem64_5.txt". Expected 64, found 19.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:15:02 on Aug 15,2021, Elapsed time: 0:24:33
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 11:15:02 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 10us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 21 of file "IMems/IMem64_5.txt". Expected 64, found 20.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 11us
+run 110us
+run 100us
+run 1000us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:25:53 on Aug 15,2021, Elapsed time: 0:10:51
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 11:25:53 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 100us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:27:52 on Aug 15,2021, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 11:27:52 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+run 100us
+run 1000us
+run 10000us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:29:04 on Aug 15,2021, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 11:29:04 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 100us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 1s
+# Invalid time value: 1s
+run 1ms
+run 10ms
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:34:35 on Aug 15,2021, Elapsed time: 0:05:31
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 11:34:35 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 100us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 100us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:40:40 on Aug 15,2021, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 11:40:40 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 25 of file "IMems/IMem66_6.txt". Expected 64, found 24.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+run 100us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 11:57:23 on Aug 15,2021, Elapsed time: 0:16:43
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 11:57:23 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 25 of file "IMems/IMem66_6.txt". Expected 64, found 24.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 100us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 25 of file "IMems/IMem66_6.txt". Expected 64, found 24.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 1000us
+restart -f 
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1000us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 25 of file "IMems/IMem66_6.txt". Expected 64, found 24.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 100us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 12:07:58 on Aug 15,2021, Elapsed time: 0:10:35
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 12:07:58 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/if1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 200000ps
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+
+run 200000ps
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 100000ps
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 100000ps
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 1000ps
+run 10000ps
+run 10000ps
+run 10000ps
+run 10000ps
+run 10000ps
+run 10000ps
+run 10000ps
+run 10000ps
+run 10000ps
+# Compile of ex.v was successful.
+# Compile of id.v failed with 2 errors.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v failed with 2 errors.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 12:51:13 on Aug 15,2021, Elapsed time: 0:43:15
+# Errors: 0, Warnings: 6
+# vsim work.scmips_sim 
+# Start time: 12:51:13 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/if1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 12:57:39 on Aug 15,2021, Elapsed time: 0:06:26
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 12:57:39 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem.txt". Expected 64, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem.txt". Expected 64, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem.txt". Expected 64, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:01:01 on Aug 15,2021, Elapsed time: 0:03:22
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:01:01 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem.txt". Expected 64, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:01:35 on Aug 15,2021, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:01:35 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:06:30 on Aug 15,2021, Elapsed time: 0:04:55
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:06:30 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:08:43 on Aug 15,2021, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:08:43 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v failed with 1 errors.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v failed with 1 errors.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v failed with 2 errors.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:15:13 on Aug 15,2021, Elapsed time: 0:06:30
+# Errors: 0, Warnings: 7
+# vsim work.scmips_sim 
+# Start time: 13:15:13 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:18:32 on Aug 15,2021, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:18:32 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:21:46 on Aug 15,2021, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:21:46 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:23:47 on Aug 15,2021, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:23:47 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:28:05 on Aug 15,2021, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:28:06 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem.txt". Expected 64, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:29:33 on Aug 15,2021, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:29:33 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 3 of file "IMems/IMem.txt". Expected 64, found 2.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:30:17 on Aug 15,2021, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:30:17 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 1us
+
+run 1us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:37:18 on Aug 15,2021, Elapsed time: 0:07:01
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:37:18 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 64, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:38:18 on Aug 15,2021, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:38:18 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:39:47 on Aug 15,2021, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:39:47 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:51:44 on Aug 15,2021, Elapsed time: 0:11:57
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:51:44 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 11 of file "IMems/IMem63_4.txt". Expected 64, found 10.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 1us
+run 1us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:53:14 on Aug 15,2021, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:53:14 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-7) Failed to open readmem file "IMems/IMem63_5.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-7) Failed to open readmem file "IMems/IMem63_5.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:54:14 on Aug 15,2021, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 13:54:14 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 22 of file "IMems/IMem64_5.txt". Expected 64, found 21.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 13:57:23 on Aug 15,2021, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 13:57:23 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/if1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 5us
+# Compile of ex.v failed with 1 errors.
+# Compile of id.v failed with 1 errors.
+# Compile of scmips_sim.v failed with 1 errors.
+# Compile of if.v failed with 1 errors.
+# Compile of dm.v failed with 1 errors.
+# 5 compiles, 5 failed with 5 errors.
+# Compile of ex.v was successful with warnings.
+# Compile of id.v was successful with warnings.
+# Compile of scmips_sim.v was successful with warnings.
+# Compile of if.v was successful with warnings.
+# Compile of dm.v was successful with warnings.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 14:04:56 on Aug 15,2021, Elapsed time: 0:07:33
+# Errors: 0, Warnings: 5
+# vsim work.scmips_sim 
+# Start time: 14:04:56 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 14:09:21 on Aug 15,2021, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 14:09:21 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+add wave -position insertpoint sim:/scmips_sim/if1/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 14:15:43 on Aug 15,2021, Elapsed time: 0:06:22
+# Errors: 0, Warnings: 4
+# vsim work.scmips_sim 
+# Start time: 14:15:43 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/ex1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 5us
+run 5us
+run 5us
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 14:23:02 on Aug 15,2021, Elapsed time: 0:07:19
+# Errors: 0, Warnings: 8
+# vsim work.scmips_sim 
+# Start time: 14:23:02 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/dm1/*
+add wave -position insertpoint sim:/scmips_sim/id1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+add wave -position insertpoint sim:/scmips_sim/dm1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v failed with 2 errors.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 14:38:13 on Aug 15,2021, Elapsed time: 0:15:11
+# Errors: 0, Warnings: 7
+# vsim work.scmips_sim 
+# Start time: 14:38:13 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/dm1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 1us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+run 10us
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+vsim work.scmips_sim
+# End time: 14:40:49 on Aug 15,2021, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 1
+# vsim work.scmips_sim 
+# Start time: 14:40:49 on Aug 15,2021
+# Loading work.scmips_sim
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+add wave -position insertpoint sim:/scmips_sim/dm1/*
+add wave -position insertpoint sim:/scmips_sim/if1/*
+run 10us
+# ** Warning: (vsim-PLI-3404) Address 255 is out of bounds 0 to 63.
+#     : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 23 of file "IMems/IMem66_6.txt". Expected 64, found 22.    : /home/noda/workspace/modelsim/mips/scmips/if.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/if1
+# End time: 11:17:02 on Aug 16,2021, Elapsed time: 20:36:13
+# Errors: 0, Warnings: 3

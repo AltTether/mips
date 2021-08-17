@@ -1,174 +1,6 @@
 # Loading project scmips
 # Compile of ex.v was successful.
 # Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 2 errors.
-# Compile of if.v failed with 1 errors.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 2 failed with 3 errors.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v failed with 1 errors.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v failed with 2 errors.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v failed with 2 errors.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 2 errors.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 0 failed with no errors.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 1 errors.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim work.scmips_sim
-# vsim work.scmips_sim 
-# Start time: 15:59:52 on Aug 17,2021
-# Loading work.scmips_sim
-# Loading work.BTN_IN
-# Loading work.SingleClockMIPS
-# Loading work.IF
-# Loading work.ID
-# Loading work.EX
-# Loading work.DM
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'BOUT'.
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/b0 File: /home/noda/workspace/modelsim/mips/scmips/scmips_sim.v Line: 20
-# Error loading design
-# End time: 15:59:52 on Aug 17,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 9
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 1 errors.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 0 failed with no errors.
-vsim work.scmips_sim
-# vsim work.scmips_sim 
-# Start time: 16:01:00 on Aug 17,2021
-# Loading work.scmips_sim
-# Loading work.BTN_IN
-# Loading work.SingleClockMIPS
-# Loading work.IF
-# Loading work.ID
-# Loading work.EX
-# Loading work.DM
-add wave -position insertpoint sim:/scmips_sim/scmips0/*
-run 1us
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 64, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/scmips0/IF0
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 1 errors.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 1 errors.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# 7 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 1 errors.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# Compile of board.v was successful.
-# Compile of SEG7DEC.v was successful.
-# 9 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v failed with 1 errors.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# Compile of board.v was successful.
-# Compile of SEG7DEC.v was successful.
-# 9 compiles, 1 failed with 1 error.
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# Compile of board.v was successful.
-# Compile of SEG7DEC.v was successful.
-# 9 compiles, 0 failed with no errors.
-vsim work.scmips_sim
-# End time: 16:38:36 on Aug 17,2021, Elapsed time: 0:37:36
-# Errors: 0, Warnings: 10
-# vsim work.scmips_sim 
-# Start time: 16:38:36 on Aug 17,2021
-# Loading work.scmips_sim
-# Loading work.Board
-# Loading work.BTN_IN
-# Loading work.SingleClockMIPS
-# Loading work.IF
-# Loading work.ID
-# Loading work.EX
-# Loading work.DM
-# ** Error: (vsim-3033) Instantiation of 'LEDS' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 18
-#         Searched libraries:
-#             /home/noda/workspace/modelsim/mips/scmips/work
-# Loading work.SEG7DEC
-# Error loading design
-# End time: 16:38:38 on Aug 17,2021, Elapsed time: 0:00:02
-# Errors: 1, Warnings: 1
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
 # Compile of scmips_sim.v was successful.
 # Compile of if.v was successful.
 # Compile of dm.v was successful.
@@ -180,45 +12,7 @@ vsim work.scmips_sim
 # 10 compiles, 0 failed with no errors.
 vsim work.scmips_sim
 # vsim work.scmips_sim 
-# Start time: 16:42:57 on Aug 17,2021
-# Loading work.scmips_sim
-# Loading work.Board
-# Loading work.BTN_IN
-# Loading work.SingleClockMIPS
-# Loading work.IF
-# Loading work.ID
-# Loading work.EX
-# Loading work.DM
-# Loading work.LEDS
-# Loading work.SEG7DEC
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'DOT'. The port definition is at: /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/s0 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'DOT'. The port definition is at: /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/s1 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 21
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'DOT'. The port definition is at: /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/s2 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 22
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'DOT'. The port definition is at: /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/s3 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 23
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'DOT'. The port definition is at: /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/s4 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 25
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'DOT'. The port definition is at: /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/s5 File: /home/noda/workspace/modelsim/mips/scmips/board.v Line: 26
-# Compile of ex.v was successful.
-# Compile of id.v was successful.
-# Compile of scmips_sim.v was successful.
-# Compile of if.v was successful.
-# Compile of dm.v was successful.
-# Compile of BTN_IN.v was successful.
-# Compile of SingleCycleMIPS.v was successful.
-# Compile of board.v was successful.
-# Compile of SEG7DEC.v was successful.
-# Compile of leds.v was successful.
-# 10 compiles, 0 failed with no errors.
-vsim work.scmips_sim
-# End time: 16:44:49 on Aug 17,2021, Elapsed time: 0:01:52
-# Errors: 0, Warnings: 10
-# vsim work.scmips_sim 
-# Start time: 16:44:49 on Aug 17,2021
+# Start time: 17:44:13 on Aug 17,2021
 # Loading work.scmips_sim
 # Loading work.Board
 # Loading work.BTN_IN
@@ -231,7 +25,13 @@ vsim work.scmips_sim
 # Loading work.SEG7DEC
 add wave -position insertpoint sim:/scmips_sim/board0/*
 run 1us
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 6 of file "IMems/IMem63_1.txt". Expected 64, found 5.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+add wave -position insertpoint sim:/scmips_sim/board0/l0/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
 # Compile of ex.v was successful.
 # Compile of id.v was successful.
@@ -245,10 +45,10 @@ run 1us
 # Compile of leds.v was successful.
 # 10 compiles, 0 failed with no errors.
 vsim work.scmips_sim
-# End time: 16:46:44 on Aug 17,2021, Elapsed time: 0:01:55
+# End time: 21:10:39 on Aug 17,2021, Elapsed time: 3:26:26
 # Errors: 0, Warnings: 3
 # vsim work.scmips_sim 
-# Start time: 16:46:44 on Aug 17,2021
+# Start time: 21:10:39 on Aug 17,2021
 # Loading work.scmips_sim
 # Loading work.Board
 # Loading work.BTN_IN
@@ -259,28 +59,21 @@ vsim work.scmips_sim
 # Loading work.DM
 # Loading work.LEDS
 # Loading work.SEG7DEC
+add wave -position insertpoint sim:/scmips_sim/board0/l0/*
 run 1us
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
-add wave -position insertpoint sim:/scmips_sim/*
-run 1us
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run 1us
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
-add wave -position insertpoint sim:/scmips_sim/board0/*
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run 1us
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
-add wave -position insertpoint sim:/scmips_sim/board0/scm0/EX0/*
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run 1us
-# ** Warning: (vsim-PLI-3408) Too few data words read on line 19 of file "IMems/IMem63_2.txt". Expected 64, found 18.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
-#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v failed with 1 errors.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# Compile of BTN_IN.v was successful.
+# Compile of SingleCycleMIPS.v was successful.
+# Compile of board.v was successful.
+# Compile of SEG7DEC.v was successful.
+# Compile of leds.v was successful.
+# 10 compiles, 1 failed with 1 error.
 # Compile of ex.v was successful.
 # Compile of id.v was successful.
 # Compile of scmips_sim.v was successful.
@@ -293,10 +86,10 @@ run 1us
 # Compile of leds.v was successful.
 # 10 compiles, 0 failed with no errors.
 vsim work.scmips_sim
-# End time: 17:15:50 on Aug 17,2021, Elapsed time: 0:29:06
-# Errors: 0, Warnings: 3
+# End time: 21:12:33 on Aug 17,2021, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 4
 # vsim work.scmips_sim 
-# Start time: 17:15:50 on Aug 17,2021
+# Start time: 21:12:33 on Aug 17,2021
 # Loading work.scmips_sim
 # Loading work.Board
 # Loading work.BTN_IN
@@ -307,7 +100,56 @@ vsim work.scmips_sim
 # Loading work.DM
 # Loading work.LEDS
 # Loading work.SEG7DEC
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+add wave -position insertpoint sim:/scmips_sim/board0/l0/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+add wave -position insertpoint sim:/scmips_sim/board0/b0/*
 add wave -position insertpoint sim:/scmips_sim/board0/scm0/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+# Compile of ex.v was successful.
+# Compile of id.v was successful.
+# Compile of scmips_sim.v was successful.
+# Compile of if.v was successful.
+# Compile of dm.v was successful.
+# Compile of BTN_IN.v was successful.
+# Compile of SingleCycleMIPS.v was successful.
+# Compile of board.v was successful.
+# Compile of SEG7DEC.v was successful.
+# Compile of leds.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim work.scmips_sim
+# End time: 21:14:59 on Aug 17,2021, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 3
+# vsim work.scmips_sim 
+# Start time: 21:14:59 on Aug 17,2021
+# Loading work.scmips_sim
+# Loading work.Board
+# Loading work.BTN_IN
+# Loading work.SingleClockMIPS
+# Loading work.IF
+# Loading work.ID
+# Loading work.EX
+# Loading work.DM
+# Loading work.LEDS
+# Loading work.SEG7DEC
+run 1us
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
+#    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+add wave -position insertpoint sim:/scmips_sim/board0/scm0/*
+add wave -position insertpoint sim:/scmips_sim/board0/*
+run 1us
+restart -f 
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 run 1us
 # ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0

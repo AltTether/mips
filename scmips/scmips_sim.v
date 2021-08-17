@@ -8,8 +8,6 @@ module scmips_sim();
    // constants
    // general purpose registers
    reg        clk, rst, we;
-   reg [2:0]  bin;
-   reg [4:0]  slct;
    reg [1:0]  key;
    reg [9:0]  sw;
    reg [31:0] gpio;
@@ -38,8 +36,10 @@ module scmips_sim();
 
    initial
      begin
-        we=1'd0; rst=1'd0; bin=3'd0;
-        gpio=32'd0; slct=5'd0;
+        we=1'd0; rst=1'd0;
+        gpio=32'd0; sw=9'b000000010;
+        key=2'b00;
+        
         rst=#(PERIOD) 1'd1;
         rst=#(PERIOD) 1'd0;
      end

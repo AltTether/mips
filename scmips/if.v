@@ -1,5 +1,5 @@
 module IF (
-           input reg         CLK, RST, WE,
+           input             CLK, RST, WE,
            input [2:0]       bout,
            input [31:0]      newPC,
            input [31:0]      W_Ins,
