@@ -7,6 +7,7 @@ module DM(
    integer              i;
    reg [31:0]           DMem [0:DMEM_SIZE-1];
    reg [5:0]            Opcode, Funct;
+   reg [31:0]           Adr;
 
    initial begin
       for (i = 0; i < DMEM_SIZE; i = i + 1) DMem[i] = 32'd0;
@@ -14,15 +15,17 @@ module DM(
 
    assign Opcode = Ins[31:26];
    assign Funct = Ins[5:0];
+   assign Adr = Result;
+
    always @(posedge CLK) begin
       if (RST) for (i = 0; i < DMEM_SIZE; i = i + 1) DMem[i] = 32'd0;
-      else if (~RST && Opcode == SW) DMem[Result] = Rdata2;
+      else if (~RST && Opcode == SW) DMem[Adr] = Rdata2;
    end
 
-   function [31:0] getMUX3Result(input[5:0] opc, fct, input[31:0] result, nextpc);
+   function [31:0] getMUX3Result(input[5:0] opc, fct, input[31:0] result, nextpc, adr);
       begin
          case(opc)
-           LW:     getMUX3Result = DMem[result];
+           LW:     getMUX3Result = DMem[adr];
            JAL:    getMUX3Result = nextpc;
            6'h00:  getMUX3Result = (fct == JALR) ? nextpc : result;
            default getMUX3Result = result;
@@ -30,6 +33,6 @@ module DM(
       end
    endfunction
 
-   assign Wdata = getMUX3Result(Opcode, Funct, Result, nextPC);
+   assign Wdata = getMUX3Result(Opcode, Funct, Result, nextPC, Adr);
 
 endmodule

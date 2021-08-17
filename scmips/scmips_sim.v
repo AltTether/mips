@@ -5,54 +5,31 @@ module scmips_sim();
 `include "common_param.vh"
    parameter PERIOD=10000;  // (clock period)/2
 
-// constants
-// general purpose registers
-   reg clk, rst, we;
-   reg [31:0] wins;
-   wire [31:0] rdata1, rdata2, ed32;
+   // constants
+   // general purpose registers
+   reg        clk, rst, we;
+   reg [2:0]  bin;
+   reg [4:0]  slct;
+   reg [1:0]  key;
+   reg [9:0]  sw;
+   reg [31:0] gpio;
 
-// wires
-   wire [31:0] result;
-   wire [31:0] newpc, nextpc, ins;
-   wire [31:0] wdata;
+   // wires
+   wire [4:0]  ledr;
+   wire [7:0]  hex0, hex1, hex2, hex3, hex4, hex5;
 
-   IF if1 (
-           .CLK(clk),
-           .RST(rst),
-           .WE(we),
-           .newPC(newpc),
-           .W_Ins(wins),
-           .nextPC(nextpc),
-           .Ins(ins));
-
-   ID id1 (
-           .CLK(clk),
-           .RST(rst),
-           .Ins(ins),
-           .Wdata(wdata),
-           .Rdata1(rdata1),
-           .Rdata2(rdata2),
-           .Ed32(ed32));
-
-   EX ex1 (
-           .CLK(clk),
-           .RST(rst),
-           .nextPC(nextpc),
-           .Ins(ins),
-           .Rdata1(rdata1),
-           .Rdata2(rdata2),
-           .Ed32(ed32),
-           .Result(result),
-           .newPC(newpc));
-
-   DM dm1 (
-           .CLK(clk),
-           .RST(rst),
-           .Result(result),
-           .Rdata2(rdata2),
-           .nextPC(nextpc),
-           .Ins(ins),
-           .Wdata(wdata));
+   Board board0 (.CLK(clk),
+                 .RST(rst),
+                 .KEY(key),
+                 .SW(sw),
+                 .GPIO(gpio),
+                 .LEDR(ledr),
+                 .HEX0(hex0),
+                 .HEX1(hex1),
+                 .HEX2(hex2),
+                 .HEX3(hex3),
+                 .HEX4(hex4),
+                 .HEX5(hex5));
 
    always begin
       clk=#(PERIOD) 1'd1;
@@ -61,7 +38,8 @@ module scmips_sim();
 
    initial
      begin
-        we=1'd0;
+        we=1'd0; rst=1'd0; bin=3'd0;
+        gpio=32'd0; slct=5'd0;
         rst=#(PERIOD) 1'd1;
         rst=#(PERIOD) 1'd0;
      end

@@ -1,15 +1,14 @@
 module EX(
-          input reg         CLK, RST,
-          input reg [31:0]  nextPC, Ins,
-          input reg [31:0]  Rdata1, Rdata2, Ed32,
-          output reg [31:0] Result, newPC
+          input         CLK, RST,
+          input [31:0]  nextPC, Ins,
+          input [31:0]  Rdata1, Rdata2, Ed32,
+          output [31:0] Result, newPC
 );
 `include "common_param.vh"
 
    reg [31:0]               lo, hi;
    reg [64:0]               reg64;
    reg [27:0]               jadr;
-   reg [31:0]               rec1, rec2, rec3, rec4, rec5;
 
    reg [5:0]                Opcode, Funct, Shamt;
 
@@ -49,11 +48,9 @@ module EX(
 
    function [31:0] getALUIResult (input[5:0] opc, input[31:0] rdata1, rdata2, ed32);
       begin
-         rec2 = rdata1;
-         rec3 = ed32;
          case(opc)
            // Immediate Arithmetic Instrunctions
-           ADDI:   begin getALUIResult = rdata1 + ed32; rec1 = rdata1 + ed32; end
+           ADDI:   getALUIResult = rdata1 + ed32;
            ADDIU:  getALUIResult = rdata1 + ed32;
            SLTI:   getALUIResult = rdata1 < ed32;
            SLTIU:  getALUIResult = rdata1 < ed32;
@@ -105,9 +102,6 @@ module EX(
    assign Opcode = Ins[31:26];
    assign Funct = Ins[5:0];
    assign Shamt = Ins[10:6];
-
-   assign rec4 = Rdata1;
-   assign rec5 = Ed32;
    
    //assign MUX2Result = (Opcode == 6'h00) ? Rdata2 : Ed32;
    assign Result = (Opcode == 6'h00) ? getALURResult(Funct, Rdata1, Rdata2, Shamt) : getALUIResult(Opcode, Rdata1, Rdata2, Ed32);

@@ -9,55 +9,103 @@ z2
 !i10f 100
 cModel Technology
 d/home/noda/workspace/modelsim/mips/ex
-vDM
-Z0 !s110 1628980483
+vBoard
+Z0 !s110 1629188141
 !i10b 1
-!s100 cO^YEWNS0hT7^kjf0QX]C3
+!s100 Z;0Nm3[A_PIh>RalYjn1P1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IWS4ld^0[hLeifoM29<<V31
+I3V@FBYADaV<cYeJ50hL3>0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 d/home/noda/workspace/modelsim/mips/scmips
-w1628949219
-8/home/noda/workspace/modelsim/mips/scmips/dm.v
-F/home/noda/workspace/modelsim/mips/scmips/dm.v
-Z4 Fcommon_param.vh
-!i122 440
-L0 1 111
-Z5 OV;L;2020.1;71
+w1629186277
+8/home/noda/workspace/modelsim/mips/scmips/board.v
+F/home/noda/workspace/modelsim/mips/scmips/board.v
+!i122 845
+L0 1 28
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1628980483.000000
+Z5 !s108 1629188141.000000
+!s107 /home/noda/workspace/modelsim/mips/scmips/board.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/board.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@board
+vBTN_IN
+R0
+!i10b 1
+!s100 TKCX;ZUCVnNe]ZVYMK]hA1
+R1
+Id7Wcco`I:zS9h_0?b@V5^2
+R2
+R3
+w1629181800
+8/home/noda/workspace/modelsim/mips/scmips/BTN_IN.v
+F/home/noda/workspace/modelsim/mips/scmips/BTN_IN.v
+!i122 843
+L0 4 47
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/noda/workspace/modelsim/mips/scmips/BTN_IN.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/BTN_IN.v|
+!i113 1
+R6
+R7
+n@b@t@n_@i@n
+vDM
+R0
+!i10b 1
+!s100 Vj`V?hEB?5R56jeBokj`o3
+R1
+IS=4k=fBjT`OSi:OVSNmcK1
+R2
+R3
+w1629181667
+8/home/noda/workspace/modelsim/mips/scmips/dm.v
+F/home/noda/workspace/modelsim/mips/scmips/dm.v
+Z8 Fcommon_param.vh
+!i122 842
+L0 1 114
+R4
+r1
+!s85 0
+31
+R5
 !s107 common_param.vh|/home/noda/workspace/modelsim/mips/scmips/dm.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/dm.v|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
+R6
+R7
 n@d@m
 vEX
-R0
+!s110 1629188140
 !i10b 1
-!s100 A[ZknZjN1AZVU>Tj7;f[<1
+!s100 ET@_??2kP1Y]Cn2Ya6ncb3
 R1
-IQ>E5MWjY4>4d88Xj]<DXa1
+ITOddlE_?Q2i9UaiGdK8nM1
 R2
 R3
-w1628979245
+w1629183161
 8/home/noda/workspace/modelsim/mips/scmips/ex.v
 F/home/noda/workspace/modelsim/mips/scmips/ex.v
+R8
+!i122 838
+L0 1 185
 R4
-!i122 436
-L0 1 191
-R5
 r1
 !s85 0
 31
-R6
+!s108 1629188140.000000
 !s107 common_param.vh|/home/noda/workspace/modelsim/mips/scmips/ex.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/ex.v|
 !i113 1
+R6
 R7
-R8
 n@e@x
 vex_id_sim
 !s110 1628861839
@@ -70,10 +118,10 @@ R3
 w1628861810
 Z9 8/home/noda/workspace/modelsim/mips/scmips/scmips_sim.v
 Z10 F/home/noda/workspace/modelsim/mips/scmips/scmips_sim.v
-R4
+R8
 !i122 2
 L0 4 137
-R5
+R4
 r1
 !s85 0
 31
@@ -81,79 +129,151 @@ r1
 Z11 !s107 common_param.vh|/home/noda/workspace/modelsim/mips/scmips/scmips_sim.v|
 Z12 !s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/scmips_sim.v|
 !i113 1
+R6
 R7
-R8
 vID
 R0
 !i10b 1
-!s100 eL`n^cJcV_6k;bog^;cNV2
+!s100 _4<0=Z4EP7_hak]V0B64<2
 R1
-IJOKk5JIC7a?om>dS4WKIj3
+IXYeY5NEcdo2mY5MWCzXRY0
 R2
 R3
-w1628947702
+w1629183117
 8/home/noda/workspace/modelsim/mips/scmips/id.v
 F/home/noda/workspace/modelsim/mips/scmips/id.v
+R8
+!i122 839
+L0 1 123
 R4
-!i122 437
-L0 1 118
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 common_param.vh|/home/noda/workspace/modelsim/mips/scmips/id.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/id.v|
 !i113 1
+R6
 R7
-R8
 n@i@d
 vIF
 R0
 !i10b 1
-!s100 Y5n2TBV5;Pl15Q7`T1XJj3
+!s100 4nGQFUoG=h1H2c1z:T2@l1
 R1
-I:ZMcDHoO77;3@Ue7UhlD73
+I613Ud?GC@70SSbX4lFh`=3
 R2
 R3
-w1628980477
+w1629188137
 8/home/noda/workspace/modelsim/mips/scmips/if.v
 F/home/noda/workspace/modelsim/mips/scmips/if.v
+R8
+!i122 841
+L0 1 101
 R4
-!i122 439
-L0 1 100
-R5
 r1
 !s85 0
 31
-R6
+R5
 !s107 common_param.vh|/home/noda/workspace/modelsim/mips/scmips/if.v|
 !s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/if.v|
 !i113 1
+R6
 R7
-R8
 n@i@f
-vscmips_sim
+vLEDS
 R0
 !i10b 1
-!s100 N=K1WaoJTfgiH<iI9;PSn0
+!s100 1P[I7=5`ImcULU]ViRne<2
 R1
-IE_Y[iZ0kKXNfUf?L`1X332
+ITJ8<iHGfBO`zkIRX;]e5T1
 R2
 R3
-w1628867901
-R9
-R10
+w1629186122
+8/home/noda/workspace/modelsim/mips/scmips/leds.v
+F/home/noda/workspace/modelsim/mips/scmips/leds.v
+!i122 847
+L0 1 13
 R4
-!i122 438
-L0 4 141
-R5
 r1
 !s85 0
 31
+R5
+!s107 /home/noda/workspace/modelsim/mips/scmips/leds.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/leds.v|
+!i113 1
 R6
+R7
+n@l@e@d@s
+vscmips_sim
+R0
+!i10b 1
+!s100 IAmmbU:dmAmKDDid9afj83
+R1
+IRg:^GjI=Y;:EGEh[3Lf6l0
+R2
+R3
+w1629185843
+R9
+R10
+R8
+!i122 840
+L0 4 119
+R4
+r1
+!s85 0
+31
+R5
 R11
 R12
 !i113 1
+R6
 R7
-R8
+vSEG7DEC
+R0
+!i10b 1
+!s100 C:a[QlK1W7@YXXZnhWRj22
+R1
+IUm=ZO@:K1Kf^a5Tk29c]A0
+R2
+R3
+w1629184013
+8/home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v
+F/home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v
+!i122 846
+L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v|
+!i113 1
+R6
+R7
+n@s@e@g7@d@e@c
+vSingleClockMIPS
+R0
+!i10b 1
+!s100 N0flHCFd@:Qd]9EZ2`BYf2
+R1
+Ie2ZPEAki^zQe^7eLJ<g`f3
+R2
+R3
+w1629183197
+8/home/noda/workspace/modelsim/mips/scmips/SingleCycleMIPS.v
+F/home/noda/workspace/modelsim/mips/scmips/SingleCycleMIPS.v
+!i122 844
+L0 1 49
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/noda/workspace/modelsim/mips/scmips/SingleCycleMIPS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/noda/workspace/modelsim/mips/scmips/SingleCycleMIPS.v|
+!i113 1
+R6
+R7
+n@single@clock@m@i@p@s

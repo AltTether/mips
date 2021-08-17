@@ -5,6 +5,27 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	scmips_sim
 
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/SingleCycleMIPS.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/SingleCycleMIPS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SingleClockMIPS
+
+Top level modules:
+	SingleClockMIPS
+
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/board.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/board.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Board
+
+Top level modules:
+	Board
+
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/leds.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/leds.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LEDS
+
+Top level modules:
+	LEDS
+
 } {} {}} /home/noda/workspace/modelsim/mips/scmips/dm.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/dm.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module DM
@@ -18,5 +39,26 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	ID
+
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/ex.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/ex.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module EX
+
+Top level modules:
+	EX
+
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/SEG7DEC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SEG7DEC
+
+Top level modules:
+	SEG7DEC
+
+} {} {}} /home/noda/workspace/modelsim/mips/scmips/BTN_IN.v {1 {vlog -work work -stats=none /home/noda/workspace/modelsim/mips/scmips/BTN_IN.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BTN_IN
+
+Top level modules:
+	BTN_IN
 
 } {} {}}
