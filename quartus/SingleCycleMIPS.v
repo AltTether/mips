@@ -1,6 +1,6 @@
 module SingleClockMIPS (
                         input wire         CLK, RST, WE,
-                        input wire [2:0]   BOUT,
+                        input wire [1:0]   BOUT,
                         input wire [4:0]   SLCT,
                         input wire [31:0]  W_Ins,
                         output wire [31:0] PC, Result);
@@ -51,7 +51,6 @@ module SingleClockMIPS (
              .Wdata(Wdata),
              .nextPC(nextPC),
              .Rslt(rslt),
-             .BOUT(BOUT),
              .Result(Result));
    
 endmodule

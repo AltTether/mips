@@ -1,6 +1,6 @@
 module IF (
            input wire         CLK, RST, WE,
-           input wire [2:0]   bout,
+           input wire [1:0]   bout,
            input wire [31:0]  newPC, W_Ins,
            output reg [31:0]  PC,
            output wire [31:0] nextPC, Ins);

@@ -6,11 +6,11 @@ module Board (
               output wire [4:0] LEDR,
               output wire [7:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 
-   wire [2:0]             BOUT;
+   wire [1:0]             BOUT;
    wire [31:0]            PC, Result;
    wire [31:0]            Result2;
 
-   BTN_IN B0 (.CLK(CLK), .RST(RST), .nBIN({1'd0, KEY}), .BOUT(BOUT));
+   BTN_IN B0 (.CLK(CLK), .RST(RST), .nBIN(KEY), .BOUT(BOUT));
    
    SingleClockMIPS SCM0 (.CLK(CLK), .RST(RST), .WE(WE), .BOUT(BOUT),
                          .SLCT(SLCT), .W_Ins(W_Ins), .PC(PC), .Result(Result));

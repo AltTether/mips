@@ -7,6 +7,7 @@ module ID(
    reg [31:0]           RegFile [0:REGFILE_SIZE-1];
 
    wire [4:0]           Wadr;
+   wire [31:0]          Opcode, Funct;
 
    integer              i;
    
@@ -16,10 +17,13 @@ module ID(
      end
    end
 
+   assign Opcode = Ins[31:26];
+   assign Funct = Ins[5:0];
+
    always @(posedge CLK) begin
       if (RST) begin
          for (i = 0; i < REGFILE_SIZE; i = i + 1) RegFile[i] <= 32'd0;
-      end else if ((BGTZ < Ins[31:26] || Ins[31:26] == JAL || Ins[31:26] == R_FORM) && Ins[31:26] != SW && Ins[5:0] != JR) begin
+      end else if ((BGTZ < Opcode || Opcode == JAL || Opcode == R_FORM) && Opcode != SW && Funct != JR) begin
         RegFile[Wadr] <= Wdata;
       end
    end
@@ -30,7 +34,7 @@ module ID(
       else getMUX1Result = Ins[20:16];
    endfunction
 
-   assign Wadr = getMUX1Result(Ins[31:26]);
+   assign Wadr = getMUX1Result(Opcode);
    assign {Rdata1, Rdata2} = {RegFile[Ins[25:21]], RegFile[Ins[20:16]]};
 
    /*
