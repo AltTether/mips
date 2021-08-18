@@ -22,6 +22,7 @@ transcript*
 sc_dpiheader.h
 vsim.dbg
 
+# ignore Quartus II generated folders
 # Working with Altera Quartus II (Q2) and do proper versioning is not that easy
 # but if you follow some rules it can be accomplished. :)
 # This file should be placed into the main directory where the .qpf file is
@@ -81,9 +82,10 @@ vsim.dbg
 # *.sdc # I want those timing files
 
 # ignore Quartus II generated folders
-*/db/
-*/incremental_db/
-*/simulation/
-*/timing/
-*/testbench/
-*/*_sim/
+quartus/db/*
+quartus/incremental_db/*
+quartus/simulation/*
+quartus/timing/*
+quartus/testbench/*
+quartus/*_sim/*
+!.gitkeep

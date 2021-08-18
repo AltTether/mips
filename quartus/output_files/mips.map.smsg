@@ -1,1 +1,0 @@
-Warning (10268): Verilog HDL information at if.v(15): always construct contains both blocking and non-blocking assignments File: /home/noda/workspace/modelsim/mips/quartus/if.v Line: 15

@@ -18,5 +18,6 @@ module IF (
       else if (bout[0] | bout[1]) PC = newPC;
    end
 
-   assign {Ins, nextPC} = {IMem[PC >> 2], PC + 4};
+   assign Ins = IMem[PC >> 4];
+   assign nextPC = PC + 4;
 endmodule
