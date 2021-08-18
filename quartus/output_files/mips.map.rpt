@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mips
-Wed Aug 18 07:17:46 2021
+Wed Aug 18 18:35:47 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -14,27 +14,30 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis DSP Block Usage Summary
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|IF:IF0
- 12. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|ID:ID0
- 13. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|EX:EX0
- 14. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|DM:DM0
- 15. Parameter Settings for Inferred Entity Instance: Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_mult:Mult0
- 16. Parameter Settings for Inferred Entity Instance: Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_divide:Div0
- 17. lpm_mult Parameter Settings by Entity Instance
- 18. Port Connectivity Checks: "Board:b0|SEG7DEC:s5"
- 19. Port Connectivity Checks: "Board:b0|SEG7DEC:s4"
- 20. Port Connectivity Checks: "Board:b0|SEG7DEC:s3"
- 21. Port Connectivity Checks: "Board:b0|SEG7DEC:s2"
- 22. Port Connectivity Checks: "Board:b0|SEG7DEC:s1"
- 23. Port Connectivity Checks: "Board:b0|SEG7DEC:s0"
- 24. Port Connectivity Checks: "Board:b0|SingleClockMIPS:SCM0"
- 25. Port Connectivity Checks: "Board:b0|BTN_IN:B0"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
- 29. Analysis & Synthesis Suppressed Messages
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|IF:IF0
+ 14. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|ID:ID0
+ 15. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|EX:EX0
+ 16. Parameter Settings for User Entity Instance: Board:b0|SingleClockMIPS:SCM0|DM:DM0
+ 17. Parameter Settings for Inferred Entity Instance: Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_mult:Mult0
+ 18. Parameter Settings for Inferred Entity Instance: Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_divide:Div0
+ 19. lpm_mult Parameter Settings by Entity Instance
+ 20. Port Connectivity Checks: "Board:b0|SEG7DEC:s5"
+ 21. Port Connectivity Checks: "Board:b0|SEG7DEC:s4"
+ 22. Port Connectivity Checks: "Board:b0|SEG7DEC:s3"
+ 23. Port Connectivity Checks: "Board:b0|SEG7DEC:s2"
+ 24. Port Connectivity Checks: "Board:b0|SEG7DEC:s1"
+ 25. Port Connectivity Checks: "Board:b0|SEG7DEC:s0"
+ 26. Port Connectivity Checks: "Board:b0|SingleClockMIPS:SCM0|LCD:LCD0"
+ 27. Port Connectivity Checks: "Board:b0|SingleClockMIPS:SCM0"
+ 28. Port Connectivity Checks: "Board:b0|BTN_IN:B0"
+ 29. Post-Synthesis Netlist Statistics for Top Partition
+ 30. Elapsed Time Per Partition
+ 31. Analysis & Synthesis Messages
+ 32. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -61,13 +64,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Aug 18 07:17:46 2021       ;
+; Analysis & Synthesis Status        ; Successful - Wed Aug 18 18:35:47 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; mips                                        ;
 ; Top-level Entity Name              ; DE10_LITE_Golden_Top                        ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 8,689                                       ;
-;     Total combinational functions  ; 5,641                                       ;
+; Total logic elements               ; 8,746                                       ;
+;     Total combinational functions  ; 5,698                                       ;
 ;     Dedicated logic registers      ; 3,259                                       ;
 ; Total registers                    ; 3259                                        ;
 ; Total pins                         ; 185                                         ;
@@ -88,6 +91,7 @@ https://fpgasoftware.intel.com/eula.
 ; Device                                                           ; 10M50DAF484C6GES     ;                    ;
 ; Top-level entity name                                            ; DE10_LITE_Golden_Top ; mips               ;
 ; Family name                                                      ; MAX 10               ; Cyclone V          ;
+; Maximum processors allowed for parallel compilation              ; 5                    ;                    ;
 ; Use smart compilation                                            ; Off                  ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                   ; On                 ;
 ; Enable compact report table                                      ; Off                  ; Off                ;
@@ -172,18 +176,17 @@ https://fpgasoftware.intel.com/eula.
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
 ; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Maximum allowed            ; 5           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
-; Maximum used               ; 6           ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 5           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
-;     Processor 3            ;   0.2%      ;
+;     Processor 2            ;   0.1%      ;
+;     Processor 3            ;   0.1%      ;
 ;     Processor 4            ;   0.1%      ;
 ;     Processor 5            ;   0.1%      ;
-;     Processor 6            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -200,6 +203,7 @@ https://fpgasoftware.intel.com/eula.
 ; SingleCycleMIPS.v                ; yes             ; User Verilog HDL File        ; /home/noda/workspace/modelsim/mips/quartus/SingleCycleMIPS.v                       ;         ;
 ; SEG7DEC.v                        ; yes             ; User Verilog HDL File        ; /home/noda/workspace/modelsim/mips/quartus/SEG7DEC.v                               ;         ;
 ; leds.v                           ; yes             ; User Verilog HDL File        ; /home/noda/workspace/modelsim/mips/quartus/leds.v                                  ;         ;
+; lcd.v                            ; yes             ; User Verilog HDL File        ; /home/noda/workspace/modelsim/mips/quartus/lcd.v                                   ;         ;
 ; board.v                          ; yes             ; User Verilog HDL File        ; /home/noda/workspace/modelsim/mips/quartus/board.v                                 ;         ;
 ; DE10_LITE_Golden_Top.v           ; yes             ; User Verilog HDL File        ; /home/noda/workspace/modelsim/mips/quartus/DE10_LITE_Golden_Top.v                  ;         ;
 ; common_param.vh                  ; yes             ; Auto-Found Unspecified File  ; /home/noda/workspace/modelsim/mips/quartus/common_param.vh                         ;         ;
@@ -227,16 +231,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+---------------------+
 ; Resource                                    ; Usage               ;
 +---------------------------------------------+---------------------+
-; Estimated Total logic elements              ; 8,689               ;
+; Estimated Total logic elements              ; 8,746               ;
 ;                                             ;                     ;
-; Total combinational functions               ; 5641                ;
+; Total combinational functions               ; 5698                ;
 ; Logic element usage by number of LUT inputs ;                     ;
-;     -- 4 input functions                    ; 4054                ;
-;     -- 3 input functions                    ; 1220                ;
-;     -- <=2 input functions                  ; 367                 ;
+;     -- 4 input functions                    ; 4095                ;
+;     -- 3 input functions                    ; 1229                ;
+;     -- <=2 input functions                  ; 374                 ;
 ;                                             ;                     ;
 ; Logic elements by mode                      ;                     ;
-;     -- normal mode                          ; 4808                ;
+;     -- normal mode                          ; 4865                ;
 ;     -- arithmetic mode                      ; 833                 ;
 ;                                             ;                     ;
 ; Total registers                             ; 3259                ;
@@ -249,7 +253,7 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                     ;
 ; Maximum fan-out node                        ; MAX10_CLK1_50~input ;
 ; Maximum fan-out                             ; 3259                ;
-; Total fan-out                               ; 30922               ;
+; Total fan-out                               ; 31127               ;
 ; Average fan-out                             ; 3.31                ;
 +---------------------------------------------+---------------------+
 
@@ -259,8 +263,8 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                                                                              ; Entity Name          ; Library Name ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
-; |DE10_LITE_Golden_Top                           ; 5641 (0)            ; 3259 (0)                  ; 0           ; 0          ; 8            ; 0       ; 4         ; 185  ; 0            ; 0          ; |DE10_LITE_Golden_Top                                                                                                                                                            ; DE10_LITE_Golden_Top ; work         ;
-;    |Board:b0|                                   ; 5641 (0)            ; 3259 (0)                  ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0                                                                                                                                                   ; Board                ; work         ;
+; |DE10_LITE_Golden_Top                           ; 5698 (0)            ; 3259 (0)                  ; 0           ; 0          ; 8            ; 0       ; 4         ; 185  ; 0            ; 0          ; |DE10_LITE_Golden_Top                                                                                                                                                            ; DE10_LITE_Golden_Top ; work         ;
+;    |Board:b0|                                   ; 5698 (0)            ; 3259 (0)                  ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0                                                                                                                                                   ; Board                ; work         ;
 ;       |BTN_IN:B0|                               ; 35 (35)             ; 27 (27)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|BTN_IN:B0                                                                                                                                         ; BTN_IN               ; work         ;
 ;       |LEDS:l0|                                 ; 8 (8)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|LEDS:l0                                                                                                                                           ; LEDS                 ; work         ;
 ;       |SEG7DEC:s0|                              ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SEG7DEC:s0                                                                                                                                        ; SEG7DEC              ; work         ;
@@ -269,9 +273,9 @@ https://fpgasoftware.intel.com/eula.
 ;       |SEG7DEC:s3|                              ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SEG7DEC:s3                                                                                                                                        ; SEG7DEC              ; work         ;
 ;       |SEG7DEC:s4|                              ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SEG7DEC:s4                                                                                                                                        ; SEG7DEC              ; work         ;
 ;       |SEG7DEC:s5|                              ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SEG7DEC:s5                                                                                                                                        ; SEG7DEC              ; work         ;
-;       |SingleClockMIPS:SCM0|                    ; 5556 (0)            ; 3232 (0)                  ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0                                                                                                                              ; SingleClockMIPS      ; work         ;
-;          |DM:DM0|                               ; 103 (103)           ; 64 (64)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0                                                                                                                       ; DM                   ; work         ;
-;          |EX:EX0|                               ; 2494 (1320)         ; 64 (64)                   ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0                                                                                                                       ; EX                   ; work         ;
+;       |SingleClockMIPS:SCM0|                    ; 5613 (0)            ; 3232 (0)                  ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0                                                                                                                              ; SingleClockMIPS      ; work         ;
+;          |DM:DM0|                               ; 104 (104)           ; 64 (64)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0                                                                                                                       ; DM                   ; work         ;
+;          |EX:EX0|                               ; 2493 (1319)         ; 64 (64)                   ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0                                                                                                                       ; EX                   ; work         ;
 ;             |lpm_divide:Div0|                   ; 1095 (0)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_divide:Div0                                                                                                       ; lpm_divide           ; work         ;
 ;                |lpm_divide_7vl:auto_generated|  ; 1095 (0)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_divide:Div0|lpm_divide_7vl:auto_generated                                                                         ; lpm_divide_7vl       ; work         ;
 ;                   |sign_div_unsign_9nh:divider| ; 1095 (0)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_divide:Div0|lpm_divide_7vl:auto_generated|sign_div_unsign_9nh:divider                                             ; sign_div_unsign_9nh  ; work         ;
@@ -279,8 +283,9 @@ https://fpgasoftware.intel.com/eula.
 ;                         |add_sub_u3c:add_sub_1| ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_divide:Div0|lpm_divide_7vl:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_ske:divider|add_sub_u3c:add_sub_1 ; add_sub_u3c          ; work         ;
 ;             |lpm_mult:Mult0|                    ; 79 (0)              ; 0 (0)                     ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_mult:Mult0                                                                                                        ; lpm_mult             ; work         ;
 ;                |mult_tns:auto_generated|        ; 79 (79)             ; 0 (0)                     ; 0           ; 0          ; 8            ; 0       ; 4         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lpm_mult:Mult0|mult_tns:auto_generated                                                                                ; mult_tns             ; work         ;
-;          |ID:ID0|                               ; 1395 (1395)         ; 1024 (1024)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0                                                                                                                       ; ID                   ; work         ;
+;          |ID:ID0|                               ; 1397 (1397)         ; 1024 (1024)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0                                                                                                                       ; ID                   ; work         ;
 ;          |IF:IF0|                               ; 1564 (1564)         ; 2080 (2080)               ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|IF:IF0                                                                                                                       ; IF                   ; work         ;
+;          |LCD:LCD0|                             ; 55 (55)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|LCD:LCD0                                                                                                                     ; LCD                  ; work         ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -303,6 +308,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; Board:b0|BTN_IN:B0|ff1[2]             ; Stuck at GND due to stuck port data_in ;
+; Board:b0|BTN_IN:B0|ff2[2]             ; Stuck at GND due to stuck port data_in ;
+; Board:b0|BTN_IN:B0|BOUT[2]            ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 3 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                   ;
++---------------------------+---------------------------+-------------------------------------------------------+
+; Register name             ; Reason for Removal        ; Registers Removed due to This Register                ;
++---------------------------+---------------------------+-------------------------------------------------------+
+; Board:b0|BTN_IN:B0|ff1[2] ; Stuck at GND              ; Board:b0|BTN_IN:B0|ff2[2], Board:b0|BTN_IN:B0|BOUT[2] ;
+;                           ; due to stuck port data_in ;                                                       ;
++---------------------------+---------------------------+-------------------------------------------------------+
+
+
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
@@ -323,53 +350,55 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------+
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[0][9]   ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[1][4]   ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[2][28]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[3][23]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[4][23]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[5][29]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[6][25]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[7][29]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[8][9]   ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[9][23]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[10][11] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[11][16] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[12][30] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[13][2]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[14][23] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[15][30] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[16][12] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[17][12] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[18][5]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[19][2]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[20][4]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[21][24] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[0][17]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[1][16]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[2][27]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[3][13]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[4][19]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[5][8]   ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[6][7]   ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[7][13]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[8][0]   ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[9][14]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[10][5]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[11][11] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[12][21] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[13][8]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[14][4]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[15][0]  ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[16][30] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[17][20] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[18][27] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[19][12] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[20][19] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[21][21] ;
 ; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[22][25] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[23][18] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[24][1]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[25][24] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[26][25] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[27][16] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[28][18] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[29][8]  ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[30][13] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[31][24] ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0|DMem[0][8]      ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0|DMem[1][3]      ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|BTN_IN:B0|ff2[0]                            ;
-; 3:1                ; 21 bits   ; 42 LEs        ; 21 LEs               ; 21 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|BTN_IN:B0|cnt[13]                           ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|IF:IF0|PC[0]           ;
-; 33:1               ; 32 bits   ; 704 LEs       ; 64 LEs               ; 640 LEs                ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lo[31]          ;
-; 33:1               ; 32 bits   ; 704 LEs       ; 64 LEs               ; 640 LEs                ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|hi[26]          ;
-; 65:1               ; 30 bits   ; 1290 LEs      ; 90 LEs               ; 1200 LEs               ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|IF:IF0|PC[7]           ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[23][20] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[24][22] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[25][17] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[26][18] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[27][14] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[28][20] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[29][13] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[30][29] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|RegFile[31][17] ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0|DMem[0][16]     ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0|DMem[1][17]     ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|BTN_IN:B0|ff1[0]                            ;
+; 3:1                ; 21 bits   ; 42 LEs        ; 21 LEs               ; 21 LEs                 ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|BTN_IN:B0|cnt[14]                           ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|IF:IF0|PC[1]           ;
+; 33:1               ; 32 bits   ; 704 LEs       ; 64 LEs               ; 640 LEs                ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|lo[26]          ;
+; 33:1               ; 32 bits   ; 704 LEs       ; 64 LEs               ; 640 LEs                ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|hi[19]          ;
+; 65:1               ; 30 bits   ; 1290 LEs      ; 90 LEs               ; 1200 LEs               ; Yes        ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|IF:IF0|PC[2]           ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|Wadr[4]         ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0|Wdata[1]        ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|Mux48           ;
-; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|Mux9            ;
-; 108:1              ; 8 bits    ; 576 LEs       ; 120 LEs              ; 456 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[16]      ;
-; 108:1              ; 8 bits    ; 576 LEs       ; 128 LEs              ; 448 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[10]      ;
-; 110:1              ; 4 bits    ; 292 LEs       ; 72 LEs               ; 220 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[27]      ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|DM:DM0|Wdata[0]        ;
+; 32:1               ; 14 bits   ; 294 LEs       ; 42 LEs               ; 252 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|LCD:LCD0|Selector28    ;
+; 32:1               ; 2 bits    ; 42 LEs        ; 8 LEs                ; 34 LEs                 ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|LCD:LCD0|Selector31    ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|Mux37           ;
+; 32:1               ; 32 bits   ; 672 LEs       ; 672 LEs              ; 0 LEs                  ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|ID:ID0|Mux1            ;
+; 108:1              ; 8 bits    ; 576 LEs       ; 120 LEs              ; 456 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[17]      ;
+; 108:1              ; 8 bits    ; 576 LEs       ; 128 LEs              ; 448 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[11]      ;
+; 110:1              ; 4 bits    ; 292 LEs       ; 72 LEs               ; 220 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[24]      ;
 ; 110:1              ; 4 bits    ; 292 LEs       ; 72 LEs               ; 220 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[4]       ;
 ; 112:1              ; 2 bits    ; 148 LEs       ; 38 LEs               ; 110 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[28]      ;
 ; 112:1              ; 2 bits    ; 148 LEs       ; 38 LEs               ; 110 LEs                ; No         ; |DE10_LITE_Golden_Top|Board:b0|SingleClockMIPS:SCM0|EX:EX0|Result[2]       ;
@@ -745,6 +774,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+-----------------------+
 
 
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Board:b0|SingleClockMIPS:SCM0|LCD:LCD0"                                                                                                     ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                      ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; RST  ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "Board:b0|SingleClockMIPS:SCM0"                                                                ;
 +----------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -777,21 +815,21 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SLD           ; 32                          ;
 ;     SCLR              ; 23                          ;
 ; cycloneiii_io_obuf    ; 71                          ;
-; cycloneiii_lcell_comb ; 5650                        ;
+; cycloneiii_lcell_comb ; 5707                        ;
 ;     arith             ; 833                         ;
 ;         2 data inputs ; 90                          ;
 ;         3 data inputs ; 743                         ;
-;     normal            ; 4817                        ;
+;     normal            ; 4874                        ;
 ;         0 data inputs ; 33                          ;
 ;         1 data inputs ; 35                          ;
-;         2 data inputs ; 218                         ;
-;         3 data inputs ; 477                         ;
-;         4 data inputs ; 4054                        ;
+;         2 data inputs ; 225                         ;
+;         3 data inputs ; 486                         ;
+;         4 data inputs ; 4095                        ;
 ; cycloneiii_mac_mult   ; 4                           ;
 ; cycloneiii_mac_out    ; 4                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 132.50                      ;
-; Average LUT depth     ; 71.11                       ;
+; Average LUT depth     ; 72.07                       ;
 +-----------------------+-----------------------------+
 
 
@@ -800,7 +838,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:19     ;
+; Top            ; 00:00:18     ;
 +----------------+--------------+
 
 
@@ -810,10 +848,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Wed Aug 18 07:17:19 2021
+    Info: Processing started: Wed Aug 18 18:35:22 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mips -c mips
-Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20032): Parallel compilation is enabled and will use up to 5 processors
 Info (12021): Found 1 design units, including 1 entities, in source file BTN_IN.v
     Info (12023): Found entity 1: BTN_IN File: /home/noda/workspace/modelsim/mips/quartus/BTN_IN.v Line: 4
 Info (12021): Found 3 design units, including 3 entities, in source file ex.v
@@ -871,6 +908,7 @@ Warning (10036): Verilog HDL or VHDL warning at ex.v(9): object "hi" assigned a 
 Info (12128): Elaborating entity "DM" for hierarchy "Board:b0|SingleClockMIPS:SCM0|DM:DM0" File: /home/noda/workspace/modelsim/mips/quartus/SingleCycleMIPS.v Line: 45
 Warning (10230): Verilog HDL assignment warning at dm.v(17): truncated value with size 32 to match size of target (1) File: /home/noda/workspace/modelsim/mips/quartus/dm.v Line: 17
 Warning (10027): Verilog HDL or VHDL warning at the dm.v(35): index expression is not wide enough to address all of the elements in the array File: /home/noda/workspace/modelsim/mips/quartus/dm.v Line: 35
+Info (12128): Elaborating entity "LCD" for hierarchy "Board:b0|SingleClockMIPS:SCM0|LCD:LCD0" File: /home/noda/workspace/modelsim/mips/quartus/SingleCycleMIPS.v Line: 55
 Info (12128): Elaborating entity "LEDS" for hierarchy "Board:b0|LEDS:l0" File: /home/noda/workspace/modelsim/mips/quartus/board.v Line: 18
 Info (10264): Verilog HDL Case Statement information at leds.v(5): all case item expressions in this case statement are onehot File: /home/noda/workspace/modelsim/mips/quartus/leds.v Line: 5
 Info (12128): Elaborating entity "SEG7DEC" for hierarchy "Board:b0|SEG7DEC:s0" File: /home/noda/workspace/modelsim/mips/quartus/board.v Line: 20
@@ -910,6 +948,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/add_
     Info (12023): Found entity 1: add_sub_t3c File: /home/noda/workspace/modelsim/mips/quartus/db/add_sub_t3c.tdf Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_u3c.tdf
     Info (12023): Found entity 1: add_sub_u3c File: /home/noda/workspace/modelsim/mips/quartus/db/add_sub_u3c.tdf Line: 23
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13014): Ignored 222 buffer(s)
     Info (13019): Ignored 222 SOFT buffer(s)
 Warning (13039): The following bidirectional pins have no drivers
@@ -1047,17 +1086,17 @@ Warning (21074): Design contains 7 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[7]" File: /home/noda/workspace/modelsim/mips/quartus/DE10_LITE_Golden_Top.v Line: 91
     Warning (15610): No output dependent on input pin "GSENSOR_INT[1]" File: /home/noda/workspace/modelsim/mips/quartus/DE10_LITE_Golden_Top.v Line: 106
     Warning (15610): No output dependent on input pin "GSENSOR_INT[2]" File: /home/noda/workspace/modelsim/mips/quartus/DE10_LITE_Golden_Top.v Line: 106
-Info (21057): Implemented 8978 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 9035 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 17 input pins
     Info (21059): Implemented 97 output pins
     Info (21060): Implemented 71 bidirectional pins
-    Info (21061): Implemented 8785 logic cells
+    Info (21061): Implemented 8842 logic cells
     Info (21062): Implemented 8 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 158 warnings
-    Info: Peak virtual memory: 484 megabytes
-    Info: Processing ended: Wed Aug 18 07:17:46 2021
-    Info: Elapsed time: 00:00:27
-    Info: Total CPU time (on all processors): 00:00:33
+    Info: Peak virtual memory: 478 megabytes
+    Info: Processing ended: Wed Aug 18 18:35:47 2021
+    Info: Elapsed time: 00:00:25
+    Info: Total CPU time (on all processors): 00:00:31
 
 
 +------------------------------------------+

@@ -153,3 +153,5 @@ restart -f
 run 1us
 # ** Warning: (vsim-PLI-3408) Too few data words read on line 8 of file "IMems/IMem63_3.txt". Expected 64, found 7.    : /home/noda/workspace/modelsim/mips/scmips/if.v(14)
 #    Time: 0 ps  Iteration: 0  Instance: /scmips_sim/board0/scm0/IF0
+# End time: 18:34:29 on Aug 18,2021, Elapsed time: 21:19:30
+# Errors: 0, Warnings: 2

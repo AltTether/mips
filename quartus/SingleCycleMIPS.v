@@ -44,6 +44,14 @@ module SingleClockMIPS (
            .Ins(Ins),
            .Wdata(Wdata));
 
-   assign Result = rslt;
+   LCD LCD0 (.CLK(CLK),
+             .SLCT(SLCT),
+             .Rdata1(Rdata1),
+             .Rdata2(Rdata2),
+             .Wdata(Wdata),
+             .nextPC(nextPC),
+             .Rslt(rslt),
+             .BOUT(BOUT),
+             .Result(Result));
    
 endmodule
