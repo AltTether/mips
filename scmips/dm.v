@@ -8,7 +8,7 @@ module DM(
 
    wire [5:0]           Opcode, Funct;
    wire [31:0]          Adr;
-
+   
    integer              i;
 
    initial begin
@@ -17,7 +17,7 @@ module DM(
 
    assign Opcode = Ins[31:26];
    assign Funct = Ins[5:0];
-   assign Adr = Result;
+   assign Adr = Result & 32'd1023;
 
    always @(posedge CLK) begin
       if (RST) for (i = 0; i < DMEM_SIZE; i = i + 1) DMem[i] = 32'd0;

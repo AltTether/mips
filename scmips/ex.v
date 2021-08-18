@@ -70,13 +70,14 @@ module EX(
            default getALUIResult = 32'd0;
          endcase // case (Opcode)
       end
-   endfunction
+   endfunction // getALUIResult
 
+   reg [31:0] cpc;
    function [31:0] getMUX5IJResult (input[5:0] opc, input[31:0] ins, ed32, nextpc, result);
       begin
          case(opc)
-           J:      begin jadr = (ins[25:0] << 2); getMUX5IJResult = {nextpc[31:28], jadr}; end
-           JAL:    begin jadr = (ins[25:0] << 2); getMUX5IJResult = {nextpc[31:28], jadr}; end
+           J:      begin jadr = (ins[25:0] << 2); cpc = nextpc - 4; getMUX5IJResult = {cpc[31:28], jadr}; end
+           JAL:    begin jadr = (ins[25:0] << 2); cpc = nextpc - 4; getMUX5IJResult = {cpc[31:28], jadr}; end
 
            BLTZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
            BGEZ:   begin getMUX5IJResult = (result) ? nextpc + (ed32 << 2) : nextpc; end
@@ -104,6 +105,6 @@ module EX(
    assign Shamt = Ins[10:6];
    
    //assign MUX2Result = (Opcode == 6'h00) ? Rdata2 : Ed32;
-   assign Result = (Opcode == 6'h00) ? getALURResult(Funct, Rdata1, Rdata2, Shamt) : getALUIResult(Opcode, Rdata1, Rdata2, Ed32);
+   assign Result = (Opcode == 6'h00) ? getALURResult(Funct, Rdata1, Rdata2, Shamt) : ((Opcode == JAL) ? nextPC : getALUIResult(Opcode, Rdata1, Rdata2, Ed32));
    assign newPC = (Opcode == 6'h00) ? getMUX5RResult(Funct, Rdata1, nextPC) : getMUX5IJResult(Opcode, Ins, Ed32, nextPC, Result);
 endmodule

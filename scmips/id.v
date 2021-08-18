@@ -6,7 +6,7 @@ module ID(
 `include "common_param.vh"
 
    reg [31:0]               RegFile [0:REGFILE_SIZE-1];
-
+   
    wire [5:0]                Opcode, Funct;
    wire [4:0]                Wadr;
    wire [4:0]                Radr1, Radr2;
@@ -21,7 +21,7 @@ module ID(
    assign Funct = Ins[5:0];
 
    always @(posedge CLK) begin
-      if ((BGTZ < Opcode || Opcode == JAL || Opcode == 6'h00) && Opcode != SW && Funct != JR) RegFile[Wadr] = Wdata;
+      if ((BGTZ < Opcode || Opcode == JAL || Opcode == 6'h00) && Opcode != SW || (Opcode == R_FORM && Funct != JR)) RegFile[Wadr] = Wdata;
    end
 
    function [4:0] getMUX1Result(input[5:0] opc, input[31:0] ins);
