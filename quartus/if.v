@@ -9,7 +9,7 @@ module IF (
    reg [31:0]                 IMem [0:IMEM_SIZE-1];
 
    initial begin
-      $readmemb("IMems/IMem63_1.txt", IMem, 8'h00, 8'h0f);
+      $readmemb("IMems/IMem63_1.txt", IMem, 8'h00, 8'h3f);
    end
 
    always @(posedge CLK) begin
@@ -18,6 +18,6 @@ module IF (
       else if (bout[0] | bout[1]) PC = newPC;
    end
 
-   assign Ins = IMem[PC >> 4];
+   assign Ins = IMem[PC >> 2];
    assign nextPC = PC + 4;
 endmodule
