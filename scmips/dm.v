@@ -24,17 +24,13 @@ module DM(
       else if (~RST && Opcode == SW) DMem[Adr] = Rdata2;
    end
 
-   function [31:0] getMUX3Result(input[5:0] opc, fct, input[31:0] result, nextpc, adr);
-      begin
-         case(opc)
-           LW:     getMUX3Result = DMem[adr];
-           JAL:    getMUX3Result = nextpc;
-           6'h00:  getMUX3Result = (fct == JALR) ? nextpc : result;
-           default getMUX3Result = result;
-         endcase
-      end
-   endfunction
+   function [31:0] getMUX3Result(input[5:0] opc, fct, input[31:0] result, nextpc);
+      if (opc == JAL || (fct == JALR && opc == R_FORM))
+        getMUX3Result = nextpc;
+      else
+        getMUX3Result = result;
+   endfunction // getMUX3Result
 
-   assign Wdata = getMUX3Result(Opcode, Funct, Result, nextPC, Adr);
+   assign Wdata = (Ins[31:26] == LW) ? DMem[Adr] : getMUX3Result(Ins[31:26], Ins[5:0], Result, nextPC);
 
 endmodule

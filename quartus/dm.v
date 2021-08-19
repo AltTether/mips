@@ -8,20 +8,21 @@ module DM(
 
    integer              i;
 
-   /*
    initial begin
       for (i = 0; i < DMEM_SIZE; i = i + 1) DMem[i] = 32'd0;
    end
-    */
 
-   assign Adr = Result;
-   
+   assign Adr = Result & 32'd1023;
+
    always @(posedge CLK) begin
       if (RST) begin
          for (i = 0; i < DMEM_SIZE; i = i + 1)
-           DMem[i] = 32'd0;
+           DMem[i] <= 32'd0;
       end else if (~RST && Ins[31:26] == SW) begin
-         DMem[Adr] = Rdata2;
+         DMem[Adr] <= Rdata2;
+      end else begin
+        for (i = 0; i < DMEM_SIZE; i = i + 1)
+           DMem[i] <= DMem[i];
       end
    end
 
@@ -32,6 +33,6 @@ module DM(
         getMUX3Result = result;
    endfunction
 
-   assign Wdata = (Ins[31:26] == LW) ? DMem[Adr] : getMUX3Result(Ins[31:26],Ins[5:0], Result, nextPC);
+   assign Wdata = (Ins[31:26] == LW) ? DMem[Adr] : getMUX3Result(Ins[31:26], Ins[5:0], Result, nextPC);
 
 endmodule

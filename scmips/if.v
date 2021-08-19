@@ -11,7 +11,7 @@ module IF (
    reg [31:0]                IMem [0:IMEM_SIZE-1];
 
    initial begin
-      $readmemb("IMems/IMem66_6.txt", IMem, 8'h00, 8'h3f);
+      $readmemb("IMems/IMem63_2.txt", IMem, 8'h00, 8'h3f);
    end
 
    always @(posedge CLK) begin

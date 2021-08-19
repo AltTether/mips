@@ -1,4 +1,5 @@
-module LEDS (input            CLK, RST,
+module LEDS (
+             input            CLK, RST,
              input [4:0]      SLCT,
              output reg [4:0] LEDR);
    always @(*) begin

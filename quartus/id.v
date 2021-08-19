@@ -23,8 +23,15 @@ module ID(
    always @(posedge CLK) begin
       if (RST) begin
          for (i = 0; i < REGFILE_SIZE; i = i + 1) RegFile[i] <= 32'd0;
-      end else if ((BGTZ < Opcode || Opcode == JAL || Opcode == R_FORM) && Opcode != SW && Funct != JR) begin
-        RegFile[Wadr] <= Wdata;
+      end else if (Opcode == R_FORM && Funct != JR) begin
+         case(Funct)
+           MULT, MULTU, DIV, DIVU, MTHI, MTLO: ;
+           default: RegFile[Wadr] <= Wdata;
+         endcase
+      end else if ((BGTZ < Opcode || Opcode == JAL) && Opcode != SW) begin
+         RegFile[Wadr] <= Wdata;
+      end else begin
+         for (i = 0; i < REGFILE_SIZE; i = i + 1) RegFile[i] <= RegFile[i];
       end
    end
 

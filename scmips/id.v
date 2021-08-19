@@ -21,7 +21,15 @@ module ID(
    assign Funct = Ins[5:0];
 
    always @(posedge CLK) begin
-      if ((BGTZ < Opcode || Opcode == JAL || Opcode == 6'h00) && Opcode != SW || (Opcode == R_FORM && Funct != JR)) RegFile[Wadr] = Wdata;
+      if (RST) begin
+         for (i = 0; i < REGFILE_SIZE; i = i + 1) RegFile[i] <= 32'd0;
+      end else if (Opcode == R_FORM && Funct != JR) begin
+         RegFile[Wadr] <= Wdata;
+      end else if ((BGTZ < Opcode || Opcode == JAL) && Opcode != SW) begin
+         RegFile[Wadr] <= Wdata;
+      end else if (Opcode == R_FORM && Funct == SLL) begin
+         RegFile[Wadr] <= Wdata;
+      end
    end
 
    function [4:0] getMUX1Result(input[5:0] opc, input[31:0] ins);
@@ -36,13 +44,6 @@ module ID(
    assign Radr2 = Ins[20:16];
    assign Rdata1 = RegFile[Radr1];
    assign Rdata2 = RegFile[Radr2];
-
-   function [31:0] getSE(input[31:0] ins);
-      case(ins[15])
-        1'd1: getSE = {16'd65535, ins[15:0]};
-        1'd0: getSE = {16'd0, ins[15:0]};
-      endcase
-   endfunction
-   assign Ed32 = (Opcode < ADDI && XORI > Opcode) ? {16'd0, Ins[15:0]} : getSE(Ins);
+   assign Ed32 = (Ins[31:26] <= ADDI && XORI >= Ins[31:26]) ? {16'd0, Ins[15:0]} : {{16{Ins[15]}}, Ins[15:0]};
    
 endmodule

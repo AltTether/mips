@@ -7,6 +7,7 @@ module SingleClockMIPS (
 
    wire [31:0]                        newPC, nextPC, Ins, rslt;
    wire [31:0]                        Rdata1, Rdata2, Ed32, Wdata;
+   wire [31:0]                        rec;
 
    IF IF0 (.CLK(CLK),
            .RST(RST),
@@ -34,7 +35,8 @@ module SingleClockMIPS (
            .Rdata2(Rdata2),
            .Ed32(Ed32),
            .Result(rslt),
-           .newPC(newPC));
+           .newPC(newPC),
+           .rec(rec));
 
    DM DM0 (.CLK(CLK),
            .RST(RST),
@@ -49,8 +51,11 @@ module SingleClockMIPS (
              .Rdata1(Rdata1),
              .Rdata2(Rdata2),
              .Wdata(Wdata),
+             .Ed32(Ed32),
              .nextPC(nextPC),
              .Rslt(rslt),
+             .Ins(Ins),
+             .rec(rec),
              .Result(Result));
    
 endmodule
