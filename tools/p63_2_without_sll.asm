@@ -17,10 +17,7 @@ _start:
 	sw		$t0, 16($s7)
 	addi	$t0, $zero, 6
 	sw		$t0, 20($s7)
-	addi	$t0, $zero, 2
-	addi	$t1, $zero, 4
-	mult	$t0, $t1
-	mflo	$t0
+	addi	$t0, $zero, 8
 	add		$t0, $s7, $t0
 	lw 		$s1, 0($t0)
 	lw		$s2, 20($s7)
