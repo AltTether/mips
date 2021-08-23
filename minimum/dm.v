@@ -1,5 +1,6 @@
 module DM(
           input         CLK, RST,
+          input [2:0]   BOUT,
           input [31:0]  Result, Rdata2, nextPC, Ins,
           output [31:0] Wdata);
 `include "common_param.vh"
@@ -21,7 +22,7 @@ module DM(
 
    always @(posedge CLK) begin
       if (RST == 1'b1) for (i = 0; i < DMEM_SIZE; i = i + 1) DMem[i] = 32'd0;
-      else if (Opcode == SW) DMem[Adr] = Rdata2;
+      else if (Opcode == SW && (BOUT[0] || BOUT[1])) DMem[Adr] = Rdata2;
       else DMem[i] = DMem[i];
    end
 

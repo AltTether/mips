@@ -11,8 +11,7 @@ _start:
 	jal		hanoi
 	j		N1
 hanoi:
-	addi	$t0, $sp, -20
-	addi	$sp, $t0, 0
+	addi	$sp, $sp, -20
 	sw		$a0, 0($sp)
 	sw		$a1, 4($sp)
 	sw		$a2, 8($sp)
@@ -24,19 +23,16 @@ hanoi:
 	jal		move
 	lw		$a2, 8($sp)
 	lw		$ra, 16($sp)
-	addi	$t0, $sp, 20
-	addi	$sp, $t0, 0
+	addi	$sp, $sp, 20
 	jr		$ra
 L1:
-	addi	$t0, $a0, -1
-	addi	$a0, $t0, 0
+	addi	$a0, $a0, -1
 	lw		$a2, 12($sp)
 	lw		$a3, 8($sp)
 	jal		hanoi
 	lw		$a0, 0($sp)
 	jal		move
-	addi	$t0, $a0, -1
-	addi	$a0, $t0, 0
+	addi	$a0, $a0, -1
 	lw		$a1, 8($sp)
 	lw		$a2, 4($sp)
 	lw		$a3, 12($sp)
@@ -46,8 +42,7 @@ L1:
 	lw		$a2, 8($sp)
 	lw		$a3, 12($sp)
 	lw		$ra, 16($sp)
-	addi	$t0, $sp, 20
-	addi	$sp, $t0, 0
+	addi	$sp, $sp, 20
 	jr		$ra
 move:
 	addi	$t0, $a0, 0
