@@ -1,6 +1,6 @@
 module DM(
           input         CLK, RST,
-          input [2:0]   BOUT,
+          input [1:0]   BOUT,
           input [31:0]  Result, Rdata2, nextPC, Ins,
           output [31:0] Wdata);
 `include "common_param.vh"

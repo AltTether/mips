@@ -1,6 +1,6 @@
 module IF (
            input             CLK, RST, WE,
-           input [2:0]       bout,
+           input [1:0]       bout,
            input [31:0]      newPC,
            input [31:0]      W_Ins,
            output reg [31:0] PC,

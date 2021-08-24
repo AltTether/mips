@@ -3,8 +3,8 @@
 
 module BTN_IN (
                input            CLK, RST,
-               input [2:0]      nBIN,
-               output reg [2:0] BOUT
+               input [1:0]      nBIN,
+               output reg [1:0] BOUT
 );
 
 /* 50MHzを1250000分周して40Hzを作る              */
@@ -23,12 +23,12 @@ always @( posedge CLK ) begin
 end
 
 /*  ボタン入力をFF2個で受ける*/
-reg [2:0] ff1, ff2;
+reg [1:0] ff1, ff2;
 
 always @( posedge CLK ) begin
     if ( RST ) begin
-        ff2 <=3'b0;
-        ff1 <=3'b0;
+        ff2 <=2'b0;
+        ff1 <=2'b0;
     end
     else if ( en40hz ) begin
         ff2 <= ff1;
@@ -37,12 +37,12 @@ always @( posedge CLK ) begin
 end
 
 /* ボタンは押すと0なので、立下りを検出 */
-wire [2:0] temp = ~ff1 & ff2 & {3{en40hz}};
+wire [1:0] temp = ~ff1 & ff2 & {2{en40hz}};
 
 /* 念のためFFで受ける */
 always @( posedge CLK ) begin
     if ( RST )
-        BOUT <=3'b0;
+        BOUT <=2'b0;
     else
         BOUT <=temp;
 end

@@ -1,5 +1,5 @@
 module SingleClockMIPS (input         CLK, RST, WE,
-                        input [2:0]   BOUT,
+                        input [1:0]   BOUT,
                         input [4:0]   SLCT,
                         input [31:0]  W_Ins,
                         output [31:0] PC, Result);
@@ -29,6 +29,7 @@ module SingleClockMIPS (input         CLK, RST, WE,
 
    EX EX0 (.CLK(CLK),
            .RST(RST),
+           .BOUT(BOUT),
            .nextPC(nextPC),
            .Ins(Ins),
            .Rdata1(Rdata1),

@@ -1,6 +1,6 @@
 module ID(
           input         CLK, RST,
-          input [2:0]   BOUT,
+          input [1:0]   BOUT,
           input [31:0]  Ins, Wdata,
           output [31:0] Rdata1, Rdata2, Ed32
 );
@@ -24,7 +24,9 @@ module ID(
    always @(posedge CLK) begin
       if (RST) begin
          for (i = 0; i < REGFILE_SIZE; i = i + 1) RegFile[i] <= 32'd0;
-      end else if (Opcode == R_FORM && (BOUT[0] || BOUT[1])) begin
+      end else if(Ins == 32'd0) begin
+         ;
+      end else if (Opcode == R_FORM && Funct&& (BOUT[0] || BOUT[1])) begin
          RegFile[Wadr] <= Wdata;
       end else if ((Opcode == ADDI || Opcode == LW || Opcode == SLTI || Opcode == SLT || Opcode == JAL) && (BOUT[0] || BOUT[1])) begin
          RegFile[Wadr] <= Wdata;
