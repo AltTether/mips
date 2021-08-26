@@ -9,11 +9,13 @@ module EX(
 
    reg [31:0]           lo, hi;
 
+   wire [4:0]           rtField;
    wire [5:0]           Opcode, Funct;
    wire [31:0]          Shamt;
    wire [63:0]          reg64;
 
 
+   assign rtField = Ins[20:16];
    assign Opcode = Ins[31:26];
    assign Funct = Ins[5:0];
    assign Shamt = {27'd0, Ins[10:6]};
@@ -66,18 +68,18 @@ module EX(
         SLT:    getALURResult = {31'b0, (rdata1 < rdata2)};
         SLTU:   getALURResult = {31'b0, ($unsigned(rdata1) < $unsigned(rdata2))};
         default getALURResult = 32'd0;
-      endcase // case (Funct)
-   endfunction // getALURResult
+      endcase
+   endfunction
 
-   // Instructions for RType
-   function [31:0] getALUIResult (input[5:0] opc, input[31:0] rdata1, rdata2, ed32);
+   // Instructions for IType
+   function [31:0] getALUIResult (input[5:0] opc, input[31:0] rdata1, rdata2, ed32, input[4:0] rtfield);
       case(opc)
         BLTZ,
-        BGEZ:    getALUIResult = (rdata2) ? {31'b0, (rdata1 < 0)} : {31'b0, (rdata1 >= 0)};
+        BGEZ:    getALUIResult = (rtfield) ? {31'b0, ($signed(rdata1) >= 0)} : {31'b0, ($signed(rdata1) < 0)};
         BEQ:     getALUIResult = {31'b0, (rdata1 == rdata2)};
         BNE:     getALUIResult = {31'b0, (rdata1 != rdata2)};
-        BLEZ:    getALUIResult = {31'b0, (rdata1 <= 0)};
-        BGTZ:    getALUIResult = {31'b0, (rdata1 > 0)};
+        BLEZ:    getALUIResult = {31'b0, ($signed(rdata1) <= 0)};
+        BGTZ:    getALUIResult = {31'b0, ($signed(rdata1) > 0)};
         ADDI:    getALUIResult = rdata1 + ed32;
         ADDIU:   getALUIResult = $unsigned(rdata1) + $unsigned(ed32);
         SLTI:    getALUIResult = {31'b0, (rdata1 < ed32)};
@@ -120,7 +122,7 @@ module EX(
    endfunction
    
    //assign MUX2Result = (Opcode == 6'h00) ? Rdata2 : Ed32;
-   assign Result = (Opcode == R_FORM) ? getALURResult(Funct, Rdata1, Rdata2, Shamt) : getALUIResult(Opcode, Rdata1, Rdata2, Ed32);
+   assign Result = (Opcode == R_FORM) ? getALURResult(Funct, Rdata1, Rdata2, Shamt) : getALUIResult(Opcode, Rdata1, Rdata2, Ed32, rtField);
    assign newPC = (Opcode == R_FORM) ? getMUX5RResult(Funct, Rdata1, nextPC) : getMUX5IJResult(Opcode, Ins, Ed32, nextPC, Result);
 
 endmodule

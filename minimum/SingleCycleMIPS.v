@@ -52,11 +52,9 @@ module SingleClockMIPS (input         CLK, RST, WE,
              .SLCT(SLCT),
              .Rdata1(Rdata1),
              .Rdata2(Rdata2),
-             .Ed32(Ed32),
              .Wdata(Wdata),
              .nextPC(nextPC),
              .Rslt(rslt),
-             .Ins(Ins),
              .Result(Result));
 
 endmodule

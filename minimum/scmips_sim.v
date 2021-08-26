@@ -16,19 +16,19 @@ module scmips_sim();
    wire [4:0]  ledr;
    wire [7:0]  hex0, hex1, hex2, hex3, hex4, hex5;
 
-   Board board0 (.CLK(clk),
-                 .RST(rst),
-                 .WE(we),
-                 .KEY(key),
-                 .SLCT(sw[4:0]),
-                 .W_Ins(gpio),
-                 .LEDR(ledr),
-                 .HEX0(hex0),
-                 .HEX1(hex1),
-                 .HEX2(hex2),
-                 .HEX3(hex3),
-                 .HEX4(hex4),
-                 .HEX5(hex5));
+   Env env0 (.CLK(clk),
+             .RST(rst),
+             .WE(we),
+             .KEY(key),
+             .SLCT(sw[4:0]),
+             .W_Ins(gpio),
+             .LEDR(ledr),
+             .HEX0(hex0),
+             .HEX1(hex1),
+             .HEX2(hex2),
+             .HEX3(hex3),
+             .HEX4(hex4),
+             .HEX5(hex5));
 
    always begin
       clk=#(PERIOD) 1'd1;

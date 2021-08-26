@@ -133,7 +133,7 @@ module DE10_LITE_Golden_Top(
 //=======================================================
 //  Structural coding
 //=======================================================
-   Board b0 (.CLK(MAX10_CLK1_50), .RST(SW[9]), .WE(SW[8]), .KEY(KEY), .SLCT(SW[4:0]), .W_Ins(GPIO[31:0]),
+   Env env0 (.CLK(MAX10_CLK1_50), .RST(SW[9]), .WE(SW[8]), .KEY(KEY), .SLCT(SW[4:0]), .W_Ins(GPIO[31:0]),
              .LEDR(LEDR[4:0]), .HEX0(HEX0), .HEX1(HEX1), .HEX2(HEX2),
              .HEX3(HEX3), .HEX4(HEX4), .HEX5(HEX5));
 

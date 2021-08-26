@@ -12,7 +12,7 @@ module IF (
 
 
    initial begin
-      $readmemh("IMems/IMem_hanoi.txt", IMem, 8'h00, 8'h2f);
+      $readmemh("IMems/IMem_hanoi.txt", IMem, 8'h00, 8'h3f);
    end
 
    always @(posedge CLK) begin

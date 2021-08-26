@@ -1,14 +1,13 @@
-module Board (
-              input        CLK, RST, WE,
-              input [1:0]  KEY,
-              input [4:0]  SLCT,
-              input [31:0] W_Ins,
-              output [4:0] LEDR,
-              output [7:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
+module Env (
+            input        CLK, RST, WE,
+            input [1:0]  KEY,
+            input [4:0]  SLCT,
+            input [31:0] W_Ins,
+            output [4:0] LEDR,
+            output [7:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5);
 
    wire [1:0]             bout;
    wire [31:0]            pc, result;
-   //reg [3:0]              cnt;
 
 
    BTN_IN b0 (.CLK(CLK), .RST(RST), .nBIN(KEY), .BOUT(bout));
