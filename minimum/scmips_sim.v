@@ -31,6 +31,8 @@ module scmips_sim();
              .HEX5(hex5));
 
    always begin
+      // If modelsim executes env module to simulate
+      // the env module needs to swap bout wire to dummy wire has always 2'b11.
       clk=#(PERIOD) 1'd1;
       clk=#(PERIOD) 1'd0;
    end

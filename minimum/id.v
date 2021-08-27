@@ -24,10 +24,17 @@ module ID(
       if (RST) begin
          for (i = 0; i < REGFILE_SIZE; i = i + 1) RegFile[i] <= 32'd0;
       end else if(Ins == 32'd0) ;
-      else if (Opcode == R_FORM && Funct&& (BOUT[0] || BOUT[1])) begin
-         RegFile[Wadr] <= Wdata;
-      end else if ((Opcode == ADDI || Opcode == LW || Opcode == SLTI || Opcode == SLT || Opcode == JAL) && (BOUT[0] || BOUT[1])) begin
-         RegFile[Wadr] <= Wdata;
+      else if (Opcode == R_FORM && Funct != JR && (BOUT[0] || BOUT[1])) begin
+         case (Funct)
+           MULT, MULTU, DIV, DIVU, MTHI, MTLO: ;
+           default: RegFile[Wadr] <= Wdata;
+         endcase // case (Funct)
+      end else if (Opcode != R_FORM && (BOUT[0] || BOUT[1])) begin
+         case (Opcode)
+           ADDI, ADDIU, SLTI, SLTIU, ANDI,
+           ORI, XORI, JAL, LW: RegFile[Wadr] <= Wdata;
+           default ;
+         endcase
       end else ;
    end
 
